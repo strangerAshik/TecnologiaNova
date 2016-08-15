@@ -1,0 +1,195 @@
+﻿.back
+{
+    background-color:#ccc;
+}
+.clearfix
+{
+    position:relative;
+}
+
+.afmil_number
+{
+	padding-top:3px;
+	padding-right:3px;
+}
+
+.afmil_pager
+{
+	background-color:#ffffff;
+	border-bottom: solid 4px #f78919;
+	border-left: solid 1px #b2b2b2;
+	border-right: solid 1px #b2b2b2;
+	border-top: solid 1px #b2b2b2;
+}
+
+.afmil_prev
+{
+	background: url(leftarrow_rotator.png) no-repeat  transparent;
+	width: 30px;
+	height:127px;
+	display: block;
+	position: absolute;
+	top: 129px;
+	left: 20px;
+	opacity:0.6; 
+	filter:alpha(opacity=60);
+}
+.afmil_prev span
+{
+    display:none;
+}
+
+.afmil_next
+{
+	background: url(rightarrow_rotator.png) no-repeat transparent;
+	width: 30px;
+	height:127px;
+	display: block;
+	position: absolute;
+	top: 129px;
+	left:635px;
+	opacity:0.6; 
+	filter:alpha(opacity=60);
+}
+
+.afmil_overlay {
+    position: absolute;
+    top: 235px;
+    left: 0px;
+    width:680px;
+    height:150px
+}
+.afmil_next span
+{
+    display:none;
+}
+
+.afmil_title
+{
+    font-family: 'Orbitron', sans-serif; 
+    font-weight: 700;
+    font-size: 28px; 
+    color: #fff; 
+    text-transform:uppercase;
+    margin-bottom:0px;
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    margin:0;
+}
+
+.afmil_title, a.afmil_title:link, a.afmil_title:visited, a.afmil_title:active, a.afmil_title:hover
+{
+    font-family: 'Orbitron', sans-serif ; 
+    font-weight: 700 ;
+    font-size: 28px; 
+    color: #fff ; 
+    text-transform:uppercase ;
+    margin-bottom:0px;
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
+
+a.afmil_title:hover
+{
+    text-decoration: underline;
+}
+
+.afmil_caption
+{
+    color:#CCC;
+    font-family: 'Orbitron', sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
+
+.afmil_content 
+{ 
+color:#fff; 
+font-size: 1.1em; 
+vertical-align:bottom; 
+position:absolute; 
+bottom:22px; 
+left: 50px; 
+width:80%; 
+z-index:1; 
+} 
+
+
+.afmil_contenthtml
+{
+    width:100%;
+    min-height:385px;
+    padding: 10px 10px 10px 10px;
+    color:#000;
+    position:relative;
+}
+ 
+.afmil_img
+{
+    float: left; 
+    width: 680px; 
+    height:385px;
+/*    padding-top:12px;*/
+    position:relative;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+
+.afmil_linkage
+{
+    padding-top:0px;
+    margin-top:0px;
+    padding-bottom:15px;
+}
+
+.afmil_linkage a 
+{
+    font-size: 8px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+    text-align:left;
+    text-decoration: none;
+}
+
+.afmil_linkage a:hover 
+{
+    text-decoration: underline;
+}
+
+.afmil_linkage a:link, .afmil_linkage a:visited, .afmil_linkage a:active 
+{
+    color:#fff;
+}
+
+/*
+* The following css are used by the carousel javascript.  
+* Do not change the .pagination nameing
+*/
+.pagination {
+    position:relative;
+    float:right;
+    margin-top:5px;
+    text-align:right;
+    margin-bottom:10px;
+}
+
+.pagination a {
+    background: url(pager.png) 0 0px no-repeat transparent;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px 0 0;
+    display: inline-block;
+}
+
+.pagination a.selected {
+    background-position: -16px 0px;
+    cursor: default;
+}
+
+.pagination a span 
+{
+    display:none;   
+}

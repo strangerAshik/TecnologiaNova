@@ -1,0 +1,4309 @@
+/* For autocompelete UI */
+.ImageGallery .ui-autocomplete {
+	z-index: 100;
+}
+
+/******************/
+/*Non-Template CSS*/
+/****************/
+div.Clear
+{
+    clear: both;
+}
+.Bold
+{
+    font-weight: bold;
+}
+span.ImageGalleryFilename
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+span.ImageGalleryFilename.DOD
+{
+    font-weight: bold;
+}
+a.ImageGalleryDownloadDocument
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+/*For programatic Document Icons*/
+span.ImageGalleryDocument
+{
+    font-size: 8em;
+    color: black;
+}
+.ImageGalleryPDF
+{
+    color: red !important;
+}
+.ImageGalleryDOC
+{
+    color: blue !important;
+}
+.ImageGalleryPPT
+{
+    color: orange !important;
+}
+.ImageGalleryXLS
+{
+    color: green !important;
+}
+
+/*****************/
+/*MarineUnit CSS*/
+/***************/
+
+/*Gallery*/
+div.UnitImageGallery
+{
+    padding-bottom: 0px !important;
+}
+
+div.UnitImageGallerySearchDiv
+{
+    background: url("images/search_bg.jpg") no-repeat scroll right top #EAEAE4;
+    height: 100px;
+    position: relative;
+}
+
+div.UnitImageGallerySearchDiv .UnitSearchText
+{
+    position:absolute;
+    left:10px;
+    top:28px;
+}
+
+div.UnitImageGallerySearchDiv input.UnitSearchTextbox
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+    left:67px;
+    top:26px;
+}
+
+div.UnitImageGallerySearchDiv input.UnitSearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:26px;
+}
+
+div.UnitImageGallerySearchDiv span.UnitSearchCategoryText
+{
+    position:absolute;
+    left:429px;
+    top:28px;
+}
+
+div.UnitImageGallerySearchDiv select.UnitSearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:488px;
+    top:26px;
+}
+
+.UnitImageGallerySearchDiv .UnitSearchTagText
+{
+    position:absolute;
+		left:38px;
+    top:56px;
+}
+
+.UnitImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+		left:67px;
+    top:54px;
+}
+
+.UnitImageGallerySearchDiv input.UnitSearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:54px;
+}
+
+div.UnitImageGallerySearchDiv span.UnitSortByText
+{
+    position:absolute;
+    left:812px;
+    top:28px;
+}
+
+div.UnitImageGallerySearchDiv select.UnitSortBy
+{
+    width: 100px;
+    height:20px;
+    position:absolute;
+    left:859px;
+    top:26px;
+}
+
+div.UnitGalleryTopBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/menubg.gif");
+    margin-bottom: 9px;
+}
+
+div.UnitPager
+{
+}
+
+a.UnitClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.UnitSearchResult
+{
+    padding-left:4px;
+}
+
+div.UnitImageGalleryImagesContainer
+{
+    width: 980px;
+}
+
+div.UnitImageGallerylvItem
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    float: left;
+    height: 260px;
+    list-style: none outside none;
+    margin: 0 12px 12px 0;
+    padding: 10px 0 0;
+    width: 233px;
+}
+
+div.UnitImageGallerylvItemDocument
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    float: left;
+    list-style: none outside none;
+    margin: 0 12px 12px 0;
+    padding: 10px 0 0;
+    width: 233px;
+}
+
+div.UnitImageGallerylvImage
+{
+    width: 215px;
+    height: 144px;
+    margin: 0 9px;
+    overflow: hidden;
+}
+
+img.UnitGalleryImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.UnitImageGallerylvCommand
+{
+    background: url("images/photoctrl.gif") repeat scroll 0 0 transparent;
+}
+
+div.UnitImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.UnitImageGalleryDownload
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photobtn.gif") no-repeat scroll 29px 5px transparent;
+}
+
+a.UnitImageGalleryView
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photobtn.gif") no-repeat scroll 29px -44px transparent;
+}
+
+span.UnitImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    height: 21px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.UnitGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/menubg.gif");
+}
+
+div.UnitImageGallerylvDocument
+{
+    width: 215px;
+    height: 145px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.UnitImageGallerySearchDiv span.UnitSearchDocumentText
+{
+    position:absolute;
+    left:429px;
+    /*top:56px;*/
+    top:28px;
+}
+
+div.UnitImageGallerySearchDiv select.UnitSearchDocumentType
+{
+    width: 180px;
+    height:20px;
+    position:absolute;
+    left:523px;
+    /*top:52px;*/
+    top:26px;
+}
+
+/*Details*/
+div.UnitImageDiv
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    list-style: none outside none;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.UnitImageGalleryDivLeft
+{
+    width: 48%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.UnitImageImg
+{
+    margin-left: 18px;
+    width: 452px;
+    float: left;
+    text-align: center;
+}
+
+img.UnitDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.UnitSpanFilename
+{
+    float: left;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+span.UnitSpanAuthor
+{
+    float: right;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+div.UnitDetailsRelated
+{
+    float: left; margin-left: 18px; padding-left: 15px; padding-top: 25px;
+}
+
+span.UnitSpanRelated
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.UnitDetailsRelatedList
+{
+    padding-left: 15px; font-weight: bold; color: #036; text-decoration: none;
+}
+
+div.UnitImageGalleryDivRight
+{
+    width: 48%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.UnitImageInfo
+{
+    float: right;
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.UnitSpanDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.UnitDetailsDownload
+{
+    text-decoration: none !important;
+    color: #9a2d2c !important;
+}
+
+a.UnitBackToGallery
+{
+    float: right
+}
+
+.UnitDetailsComment
+{
+    font-style: italic;
+    font-size: 11px;
+}
+
+/*Pager*/
+div.UnitPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.UnitNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.UnitSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.UnitPage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+
+
+/*****************/
+/*MarineMil CSS*/
+/***************/
+
+/*Gallery*/
+div.MDMImageGallery
+{
+    padding-bottom: 0px !important;
+}
+
+div.MDMImageGallerySearchDiv
+{
+    background: url("images/search_bg.jpg") no-repeat scroll right top #EAEAE4;
+    height: 100px;
+    position: relative;
+}
+
+div.MDMImageGallerySearchDiv .MDMSearchText
+{
+    position:absolute;
+    left:10px;
+    top:28px;
+}
+
+div.MDMImageGallerySearchDiv input.MDMSearchTextbox
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+    left:67px;
+    top:26px;
+}
+
+div.MDMImageGallerySearchDiv input.MDMSearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:26px;
+}
+
+div.MDMImageGallerySearchDiv span.MDMSearchCategoryText
+{
+    position:absolute;
+    left:417px;
+    top:28px;
+}
+
+div.MDMImageGallerySearchDiv select.MDMSearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:476px;
+    top:26px;
+}
+
+.MDMImageGallerySearchDiv .MDMSearchTagText
+{
+    position:absolute;
+		left:38px;
+    top:56px;
+}
+
+.MDMImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+		left:67px;
+    top:54px;
+}
+
+.MDMImageGallerySearchDiv input.MDMSearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:54px;
+}
+
+div.MDMImageGallerySearchDiv span.MDMSortByText
+{
+    position:absolute;
+    left:788px;
+    top:28px;
+}
+
+div.MDMImageGallerySearchDiv select.MDMSortBy
+{
+    width: 100px;
+    height:20px;
+    position:absolute;
+    left:835px;
+    top:26px;
+}
+
+div.MDMGalleryTopBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/menubg.gif");
+}
+
+div.MDMPager
+{
+}
+
+a.MDMClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.MDMSearchResult
+{
+    padding-left:4px;
+}
+
+div.MDMImageGallerylvItem
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    float: left;
+    height: 260px;
+    list-style: none outside none;
+    margin: 0 2px 12px 0;
+    padding: 10px 0 0;
+    width: 233px;
+}
+
+div.MDMImageGallerylvItemDocument
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    float: left;
+    list-style: none outside none;
+    margin: 0 2px 12px 0;
+    padding: 10px 0 0;
+    width: 233px;
+}
+
+div.MDMImageGallerylvImage
+{
+    width: 215px;
+    height: 144px;
+    margin: 0 9px;
+    overflow: hidden;
+}
+
+img.MDMGalleryImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.MDMImageGallerylvCommand
+{
+    background: url("images/photoctrl.gif") repeat scroll 0 0 transparent;
+}
+
+div.MDMImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.MDMImageGalleryDownload
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photobtn.gif") no-repeat scroll 29px 5px transparent;
+}
+
+a.MDMImageGalleryView
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photobtn.gif") no-repeat scroll 29px -44px transparent;
+}
+
+span.MDMImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    height: 21px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.MDMGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/menubg.gif");
+}
+
+div.MDMImageGallerylvDocument
+{
+    width: 215px;
+    height: 145px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.MDMImageGallerySearchDiv span.MDMSearchDocumentText
+{
+    position:absolute;
+    left:417px;
+    /*top:56px;*/
+    top:28px;
+}
+
+div.MDMImageGallerySearchDiv select.MDMSearchDocumentType
+{
+    width: 180px;
+    height:20px;
+    position:absolute;
+    left:511px;
+    /*top:52px;*/
+    top:26px;
+}
+
+/*Details*/
+div.MDMImageDiv
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    list-style: none outside none;
+    padding:0px 12px 35px 12px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.MDMImageGalleryDivLeft
+{
+    width: 48%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.MDMImageImg
+{
+    width: 452px;
+    float: left;
+    text-align: center;
+}
+
+img.MDMDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.MDMSpanFilename
+{
+    float: left;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+span.MDMSpanAuthor
+{
+    float: right;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+div.MDMDetailsRelated
+{
+    float: left; margin-left: 18px; padding-left: 15px; padding-top: 25px;
+}
+
+span.MDMSpanRelated
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.MDMDetailsRelatedList
+{
+    padding-left: 15px; font-weight: bold; color: #036; text-decoration: none;
+}
+
+div.MDMImageGalleryDivRight
+{
+    width: 48%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.MDMImageInfo
+{
+    float: right;
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.MDMSpanDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.MDMDetailsDownload
+{
+    text-decoration: none !important;
+    color: #9a2d2c !important;
+}
+
+a.MDMBackToGallery
+{
+    float: right
+}
+
+.MDMDetailsComment
+{
+    font-style: italic;
+    font-size: 11px;
+}
+
+/*Pager*/
+div.MDMPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.MDMNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.MDMSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.MDMPage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+
+
+/*****************/
+/*MDMMobile CSS*/
+/***************/
+
+/*Gallery*/
+div.MDMMobileImageGallery
+{
+    width: 100%;
+}
+
+div.MDMMobileImageGallerySearchDiv
+{
+    height: 54px;
+    position: relative;
+    background: #FEFEFE url("images/search_tan_bg.png") left bottom repeat-x;
+    top: -10px;
+    margin-bottom: -10px;
+}
+
+div.MDMMobileImageGallerySearchDiv div.MDMMobileImageGallerySearchBoxDiv
+{
+    background: url("images/search_bar_full.png") no-repeat scroll right center transparent;
+        height: 32px;
+        padding: 0;
+        position: relative;
+        top: 13px;
+        width: 212px;
+        margin-left: 3%;
+        float: left;
+        margin-bottom: 13px;
+}
+
+div.MDMMobileImageGallerySearchDiv div.MDMMobileImageGallerySearchBoxDiv input.MDMMobileSearchTextbox
+{
+    background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        bottom: 4px;
+        color: #666666;
+        font-size: 11px;
+        height: 21px;
+        line-height: 16px;
+        width: 85%;
+        position: absolute;
+        margin-left: 5px;
+}
+
+div.MDMMobileImageGallerySearchDiv div.MDMMobileImageGallerySearchBoxDiv input.MDMMobileSearchSubmit
+{
+        width: 13.4%;
+        height: 22px;
+        padding-top: 5px;
+        margin-left: 87%;
+        position: absolute;
+}
+
+div.MDMMobileImageGallerySearchDiv select.MDMMobileSortBy
+{
+    width: 25%;
+        height: 20px;
+        margin-left: 5%;
+        margin-top: 18px;
+}
+
+div.MDMMobileGalleryTopBar
+{
+    height:39px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/carbon_bg.png");
+}
+
+div.MDMMobileGalleryTopBar h2.MDMMobileTopBarH2
+{
+        background: url("images/icon_camera.png") no-repeat 10px 5px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        color: white;
+        padding: 2px 42px;
+        margin: 0;
+        text-transform:uppercase;
+        line-height: 24px;
+}
+
+div.MDMMobileGalleryTopBar span.MDMMobileTopBarText
+{
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #E7E4D7;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+}
+
+div.MDMMobileGallerySearchText
+{
+    margin-left: 9px;
+}
+
+div.MDMMobileImageGalleryList
+{
+    padding: 0;
+    margin: 0;
+}
+
+div.MDMMobilePager
+{
+}
+
+a.MDMMobileClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.MDMMobileSearchResult
+{
+    padding-left:4px;
+}
+
+div.MDMMobileImageGallerylvItem
+{
+        height: 220px;
+        background-color: #E7DBCD;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 33%;
+        float: left;
+}
+
+div.MDMMobileImageGallerylvItemDocument
+{
+        height: 160px;
+        background-color: #E7DBCD;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 33%;
+        float: left;
+}
+
+div.MDMMobileImageGallerylvItemAlt
+{
+        height: 220px;
+        background-color: #F2EDE7;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 33%;
+        float: left;
+}
+
+div.MDMMobileImageGallerylvItemAltDocument
+{
+        height: 160px;
+        background-color: #F2EDE7;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 33%;
+        float: left;
+}
+
+div.MDMMobileImageGallerylvImage
+{
+    text-align: center;
+        float: left;
+        width: 48%;
+        overflow: hidden;
+        margin-left: 3%;
+}
+
+img.MDMMobileGalleryImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+div.MDMMobileImageGallerylvInfo
+{
+        float: right;
+        width: 48%;
+}
+
+span.MDMMobileImageGallerylvLabel
+{
+    font-weight: bold;
+}
+
+div.MDMMobileGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/menubg.gif");
+}
+
+div.MDMMobileImageGallerylvDocument
+{
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    margin-left: 12%;
+    text-align: center;
+}
+
+div.MDMMobileImageGallerylvDocument span.ImageGalleryDocument
+{
+    margin-left: 0px !important;
+    font-size: 7em !important;
+}
+
+@media (max-width: 479px)
+{
+    div.MDMMobileImageGallerylvItem
+    {
+        height: 220px;
+        background-color: #E7DBCD;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 100%;
+    }
+    div.MDMMobileImageGallerylvItemAlt
+    {
+        height: 220px;
+        background-color: #F2EDE7;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 100%;
+    }
+
+    div.MDMMobileImageGallerylvItemDocument
+    {
+        height: 160px;
+        background-color: #E7DBCD;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 100%;
+    }
+    div.MDMMobileImageGallerylvItemAltDocument
+    {
+        height: 160px;
+        background-color: #F2EDE7;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 780px)
+{
+    div.MDMMobileImageGallerylvItem
+    {
+        height: 220px;
+        background-color: #E7DBCD;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 50%;
+        float: left;
+    }
+    div.MDMMobileImageGallerylvItemAlt
+    {
+        height: 220px;
+        background-color: #F2EDE7;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 50%;
+        float: left;
+    }
+
+    div.MDMMobileImageGallerylvItemDocument
+    {
+        height: 160px;
+        background-color: #E7DBCD;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 50%;
+        float: left;
+    }
+    div.MDMMobileImageGallerylvItemAltDocument
+    {
+        height: 160px;
+        background-color: #F2EDE7;
+        list-style: none outside none;
+        padding: 3.1% 0 0;
+        width: 50%;
+        float: left;
+    }
+}
+
+/*Details*/
+div.MDMMobileImageDiv
+{
+    background: none repeat scroll 0 0 #EAE9E4;
+    list-style: none outside none;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.MDMMobileImageDetailsTop
+{
+    padding-top: 15px;
+    text-align: center;
+}
+
+a.MDMMobileDetailsImage
+{
+    vertical-align: middle;
+}
+
+img.MDMMobileDetailsImage
+{
+    vertical-align: middle;
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+}
+
+span.MDMMobileSpanFilename
+{
+    float: left;
+    font-weight: bold;
+}
+
+span.MDMMobileSpanAuthor
+{
+    float: left;
+    font-weight: bold;
+}
+
+div.MDMMobileImageGalleryDivMiddle
+{
+    
+}
+
+div.MDMMobileImageInfo
+{
+    min-height: 20px;
+    padding-top: 5px;
+}
+
+span.MDMMobileSpanDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div.MDMMobileAddThisInfo
+{
+    float: right;
+    width: 140px;
+}
+
+a.MDMMobileDetailsDownload
+{
+    text-decoration: none !important;
+    color: #9a2d2c !important;
+}
+
+span.MDMMobileDetailsComment
+{
+    font-size: 10px;
+    font-style: italic;
+}
+
+div.MDMMobileImageGalleryDivBottom
+{
+    
+}
+
+div.MDMMobileImageGalleryDivBottomLeft
+{
+    float: left;
+}
+
+div.MDMMobileDetailsRelated
+{
+    float: left;
+    margin-left:18px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+span.MDMMobileSpanRelated
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.MDMMobileDetailsRelatedList
+{
+    padding-left: 15px;
+    font-weight: bold;
+    color: #036;
+    text-decoration: none;
+}
+
+div.MDMMobileImageGalleryDivBottomRight
+{
+    float: right;
+}
+
+a.MDMMobileBackToGallery
+{
+    font-size: 14px;
+}
+
+/*Pager*/
+div.MDMMobilePagerDiv
+{
+}
+
+span.MDMMobileNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.MDMMobileSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.MDMMobilePage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+
+
+/*****************/
+/*USACE CSS*/
+/***************/
+
+/*Gallery*/
+div.USACEIGGalleryCBox1
+{
+    margin-bottom: 13px;
+    clear: both;
+    display: block;
+    width: 680px;
+}
+
+div.USACEIGGalleryCBox1 .ctop1
+{
+    height: 39px;
+    background: url(images/cbox01top.gif) 0 0 no-repeat;
+}
+
+div.USACEIGGalleryCBox1 .ctopr
+{
+    height: 39px;
+    background: url(images/cbox01top.gif) right -78px no-repeat;
+}
+
+div.USACEIGGalleryCBox1 h2.cheader
+{
+    height: 39px;
+    background: url(images/cbox01top.gif) 0 -39px repeat-x;
+    margin: 0 15px;
+    padding: 0px;
+    text-align: center;
+    font-weight: normal;
+}
+
+div.USACEIGGalleryCBox1 h2.cheader .title
+{
+    color: White;
+    line-height: 39px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    display: block;
+}
+
+div.USACEIGGalleryCBox1 .cmiddle
+{
+    background: url(images/cbox01left.gif) 0 0 repeat-y;
+}
+
+div.USACEIGGalleryCBox1 .cminner
+{
+    background: url(images/cbox01right.gif) right top repeat-y;
+}
+
+div.USACEIGGalleryCBox1 .containerpane
+{
+    margin: 0 5px;
+}
+
+div.USACEIGFilterSearchBox
+{
+    background: #DEDFE0;
+    padding: 10px;
+    color: #688472;
+    font-size: 12pt;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+div.USACEIGFilterSearchBox span
+{
+    padding-left: 0%;
+}
+
+div.USACEIGFilterSearchBox span span
+{
+    color: #688472;
+    font-size: 12pt;
+    line-height: 30px;
+}
+
+div.USACEIGFilterSearchBox span
+{
+    padding-left: 2%;
+}
+
+div.USACEIGFilterSearchBox span input.txtSearch
+{
+    width: 50%;
+}
+
+div.USACEIGFilterSearchBox span
+{
+    padding-left: 5px;
+}
+
+div.USACEIGFilterSearchFilter
+{
+    padding-left: 14.5%;
+}
+
+div.USACEIGFilterSearchFilter label
+{
+    color: #688472;
+    font-size: 11px;
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+span.USACEIGGallerySearchResults
+{
+    padding-left: 4px;
+}
+
+div.USACEIGGalleryGallery
+{
+    width: 680px;
+    overflow: auto;
+}
+
+div.USACEIGGalleryGallery div.USACEIGGalleryItem
+{
+    width: 320px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+div.USACEIGGalleryGallery div.USACEIGGalleryItem div.USACEIGGalleryImage
+{
+    width: 224px;
+    height: 149px;
+    padding: 7px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.USACEIGGalleryGallery div.USACEIGGalleryItem div.USACEIGGalleryImage img
+{
+}
+
+div.USACEIGGalleryGallery div.USACEIGGalleryItem div.USACEIGGalleryCommand
+{
+    padding-left: 3px;
+    width: 2%;
+    float: left;
+}
+
+div.USACEIGGalleryGallery div.USACEIGGalleryItem div.USACEIGGalleryInfo
+{
+    width: 90%;
+    height: 70px;
+    padding: 5px;
+    float: left;
+}
+
+div.USACEIGGalleryGallery div.USACEIGGalleryItem div.USACEIGGalleryInfo span
+{
+    font-family: Arial;
+    font-size: 14px;
+}
+
+div.USACEIGGalleryGroupSeparator
+{
+    border-top: 1px dotted gray;
+    height: 1px;
+    clear: both;
+    width: 670px;
+}
+
+div.USACEIGGalleryCBox1 .cbot
+{
+    height: 16px;
+    background: url(images/cbox01bottom.gif) 0 0 no-repeat;
+}
+
+div.USACEIGGalleryCBox1 .cbot div
+{
+    height: 16px;
+    background: url(images/cbox01bottom.gif) right -32px no-repeat;
+}
+
+div.USACEIGGalleryCBox1 .cbot div div
+{
+    height: 16px;
+    background: url(images/cbox01bottom.gif) 0 -16px repeat-x;
+    margin: 0 15px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+div.USACEIGGalleryc_footer
+{
+    text-align: right;
+    clear: both;
+}
+
+div.USACEImageGallerylvDocument
+{
+    width: 224px;
+    margin-bottom: 10px;
+    padding: 7px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*Details*/
+div.USACEIGDetailsImage
+{
+    float: left;
+    width: 561px;
+    height: 400px;
+    text-align: center;
+}
+
+div.USACEIGDetailsLinks
+{
+    float: right;
+    width: 10%;
+    margin-right: 10px;
+}
+
+div.USACEIGDetailsImageInfo
+{
+    clear: both;
+    width: 88.5%;
+    padding-top: 15px;
+}
+
+div.USACEIGDetailsImageInfo span.USACEIGDetailsAuthor
+{
+    font-size: 11px;
+    float: left;
+    background-color: #3E6352;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/*Pager*/
+span.USACEIGPager
+{
+    float: right;
+    padding-right: 5px;
+    clear: both;
+}
+
+/*Category*/
+div.USACEIGCategoryCBox1
+{
+    margin-bottom: 13px;
+    clear: both;
+    display: block;
+    width: 250px;
+}
+
+div.USACEIGCategoryCBox1 .ctop1
+{
+    height: 39px;
+    background: url(images/cbox01top.gif) 0 0 no-repeat;
+}
+
+div.USACEIGCategoryCBox1 .ctopr
+{
+    height: 39px;
+    background: url(images/cbox01top.gif) right -78px no-repeat;
+}
+
+div.USACEIGCategoryCBox1 h2.cheader
+{
+    height: 39px;
+    background: url(images/cbox01top.gif) 0 -39px repeat-x;
+    margin: 0 15px;
+    padding: 0px;
+    text-align: center;
+    font-weight: normal;
+}
+
+div.USACEIGCategoryCBox1 h2.cheader .title
+{
+    color: White;
+    line-height: 39px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    display: block;
+}
+
+div.USACEIGCategoryCBox1 .cmiddle
+{
+    background: url(images/cbox01left.gif) 0 0 repeat-y;
+}
+
+div.USACEIGCategoryCBox1 .cminner
+{
+    background: url(images/cbox01right.gif) right top repeat-y;
+}
+
+div.USACEIGCategoryCBox1 .containerpane
+{
+    margin: 0 5px;
+}
+
+ul.USACEIGCategoryLinkList
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.USACEIGCategoryLinkList li.linkitem
+{
+    margin: 0px;
+    padding: 5px 10px;
+    list-style: none;
+    border-bottom: 1px #E8EEEA solid;
+}
+
+div.USACEIGCategoryCBox1 .cbot
+{
+    height: 16px;
+    background: url(images/cbox01bottom.gif) 0 0 no-repeat;
+}
+
+div.USACEIGCategoryCBox1 .cbot div
+{
+    height: 16px;
+    background: url(images/cbox01bottom.gif) right -32px no-repeat;
+}
+
+div.USACEIGCategoryCBox1 .cbot div div
+{
+    height: 16px;
+    background: url(images/cbox01bottom.gif) 0 -16px repeat-x;
+    margin: 0 15px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+div.USACEIGCategoryc_footer
+{
+    text-align: right;
+    clear: both;
+}
+
+
+
+/*****************/
+/*AF CSS*/
+/***************/
+
+/*Gallery*/
+div.AFImageGallery
+{
+    padding-bottom: 0px !important;
+}
+
+div.AFImageGallerySearchDiv
+{
+    height: 100px;
+    position: relative;
+}
+
+div.AFImageGallerySearchDiv .AFSearchText
+{
+    position:absolute;
+    left:0px;
+    top:28px;
+}
+
+div.AFImageGallerySearchDiv input.AFSearchTextbox
+{
+    width: 215px;
+    height:14px;
+    position:absolute;
+		left:57px;
+    top:26px;
+}
+
+div.AFImageGallerySearchDiv input.AFSearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:281px;
+    top:26px;
+}
+
+div.AFImageGallerySearchDiv span.AFSearchCategoryText
+{
+    position:absolute;
+    left:369px;
+    top:28px;
+}
+
+div.AFImageGallerySearchDiv select.AFSearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:424px;
+    top:26px;
+}
+
+div.AFImageGallerySearchDiv span.AFSearchDocumentText
+{
+    position:absolute;
+    left:369px;
+    /*top:56px;*/
+    top:28px;
+}
+
+div.AFImageGallerySearchDiv select.AFSearchDocumentType
+{
+    width: 180px;
+    height:20px;
+    position:absolute;
+    left:460px;
+    /*top:52px;*/
+    top:26px;
+}
+
+.AFImageGallerySearchDiv .AFSearchTagText
+{
+    position:absolute;
+		left:28px;
+    top:56px;
+}
+
+.AFImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 215px;
+    height:14px;
+    position:absolute;
+		left:57px;
+    top:54px;
+}
+
+.AFImageGallerySearchDiv input.AFSearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:281px;
+    top:54px;
+}
+
+div.AFImageGallerySearchDiv span.AFSortByText
+{
+    position:absolute;
+    left:660px;
+    top:28px;
+}
+
+div.AFImageGallerySearchDiv select.AFSortBy
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:705px;
+    top:26px;
+}
+
+div.AFGalleryTopBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/blueheader.png");
+}
+
+div.AFPager
+{
+}
+
+a.AFClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.AFSearchResult
+{
+    padding-left:4px;
+}
+
+div.AFImageGalleryImagesContainer
+{
+    width: 980px;
+    margin-top: 15px;
+}
+
+div.AFImageGallerylvItem
+{
+    background-color: White;
+    float: left;
+    height: 216px;
+    list-style: none outside none;
+    margin: 0 5px 10px 0;
+    padding: 10px 0 0;
+    width: 224px;
+    border-width: thin;
+    border-color: Black;
+    border-style: solid;
+}
+
+div.AFImageGallerylvItemDocument
+{
+    background-color: White;
+    float: left;
+    list-style: none outside none;
+    margin: 0 5px 10px 0;
+    padding: 10px 0 0;
+    width: 224px;
+    border-width: thin;
+    border-color: Black;
+    border-style: solid;
+}
+
+div.AFImageGallerylvImage
+{
+    width: 215px;
+    height: 144px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+div.AFImageGallerylvDocument
+{
+    width: 215px;
+    height: 125px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+
+img.AFGalleryImage
+{
+    border-color: #113b62 !important;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.AFImageGallerylvCommand
+{
+    background: url("images/linkbar.jpg") repeat scroll 0 0 transparent;
+}
+
+div.AFImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.AFImageGalleryDownload
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/downloadlink.png") no-repeat scroll 29px 5px transparent;
+}
+
+a.AFImageGalleryDownloadDocument
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+span.AFImageGalleryFilename
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.AFImageGalleryView
+{
+    color: #000000;
+    display: block;
+    height: 20px;
+    line-height: 24px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photodetailslink.png") no-repeat scroll 29px 5px transparent;
+}
+
+span.AFImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    height: 21px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.AFGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/blueheader.png");
+}
+
+/*Details*/
+div.AFImageDiv
+{
+    list-style: none outside none;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.AFImageGalleryDivLeft
+{
+    width: 55%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.AFImageImg
+{
+    text-align: center;
+}
+
+img.AFDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.AFSpanFilename
+{
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+span.AFSpanAuthor
+{
+    font-weight: bold;
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+div.AFImageGalleryDivLeft h1
+{
+    font-style: italic;
+}
+
+span.AFDetailsTitle
+{
+    font-style: italic;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+span.AFDetailsCaption
+{
+    font-size: 13px;
+}
+
+div.AFDetailsRelated
+{
+    
+}
+
+span.AFSpanRelated
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+}
+
+ul.AFDetailsRelatedList
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+    list-style-type: circle !important;
+}
+
+ul.AFDetailsRelatedList li
+{
+    margin-top: 10px;
+    list-style-type: circle !important;
+}
+
+ul.AFDetailsRelatedList li a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: #555555;
+}
+
+div.AFImageGalleryDivRight
+{
+    width: 40%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.AFImageInfo
+{
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.AFSpanDate
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.AFDetailsDownload
+{
+    font-size: 14px;
+}
+
+a.AFDetailsDownload span.ImgSize
+{
+    font-size: 12px;
+    font-style: italic;
+}
+
+span.AFDetailsTagsTitle
+{
+    font-size: 18px;
+    color: #555555;
+}
+
+span.AFDetailsTagsBody
+{
+    font-style: italic;
+    color: #555555;
+}
+
+img.AFBackToGalleryImg
+{
+    margin-bottom: 3px;
+}
+
+a.AFBackToGallery
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Pager*/
+div.AFPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.AFNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.AFSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.AFPage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+a.AFPagerNext
+{
+    display: block;
+    float: right;
+    margin-left: 3px;
+    margin-top: 6px;
+}
+
+a.AFPagerPrev
+{
+    display: block;
+    float: left;
+    margin-right: 3px;
+    margin-top: 6px;
+}
+
+iframe.AFDocument
+{
+    width: 100%;
+}
+
+iframe.AFFullDocument
+{
+    width: 100%;
+    height: 1060px;
+}
+
+/*Carousel*/
+div.carousel {
+  width:100%;
+  height:70px;
+  background:none;
+  position:relative;
+  overflow:hidden;
+  z-index:200;
+  font-family:Arial,Helvetica,sans-serif;
+  visibility:hidden;
+}
+div.slideContainer {
+  width:100%;
+  height:100px;
+  position:absolute;
+  z-index:202;
+  overflow:hidden;
+}
+div.slideContainer div.slide {
+  width:100%;
+  height:100px;
+}
+
+
+
+
+/*****************/
+/*AFMobile CSS*/
+/***************/
+
+/*Gallery*/
+div.AFMobileImageGallery
+{
+    width: 100%;
+}
+
+@media (max-width: 500px), (max-device-width: 500px)
+{
+    div.AFMobileImageGallerylvItem span.ImageGalleryDocument
+    {
+        font-size: 4em !important;
+    }
+    div.AFMobileImageGallerylvItemAlt span.ImageGalleryDocument
+    {
+        font-size: 4em !important;
+    }
+}
+
+div.AFMobileImageGallerySearchDiv
+{
+    height: 54px;
+    position: relative;
+    background: #FEFEFE url("images/search_tan_bg.png") left bottom repeat-x;
+    top: -10px;
+    margin-bottom: -10px;
+}
+
+div.AFMobileImageGallerySearchDiv div.AFMobileImageGallerySearchBoxDiv
+{
+    background: url("images/search_bar_full.png") no-repeat scroll right center transparent;
+        height: 32px;
+        padding: 0;
+        position: relative;
+        top: 13px;
+        width: 212px;
+        margin-left: 3%;
+        float: left;
+        margin-bottom: 13px;
+}
+
+div.AFMobileImageGallerySearchDiv div.AFMobileImageGallerySearchBoxDiv input.AFMobileSearchTextbox
+{
+    background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        bottom: 4px;
+        color: #666666;
+        font-size: 11px;
+        height: 21px;
+        line-height: 16px;
+        width: 85%;
+        position: absolute;
+        margin-left: 5px;
+}
+
+div.AFMobileImageGallerySearchDiv div.AFMobileImageGallerySearchBoxDiv input.AFMobileSearchSubmit
+{
+        width: 13.4%;
+        height: 22px;
+        padding-top: 5px;
+        margin-left: 87%;
+        position: absolute;
+}
+
+div.AFMobileImageGallerySearchDiv select.AFMobileSortBy
+{
+    width: 25%;
+        height: 20px;
+        margin-left: 5%;
+        margin-top: 18px;
+}
+
+div.AFMobileGalleryTopBar
+{
+    height:39px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/carbon_bg.png");
+}
+
+div.AFMobileGalleryTopBar h2.AFMobileTopBarH2
+{
+        background: url("images/icon_camera.png") no-repeat 10px 5px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        color: white;
+        padding: 2px 42px;
+        margin: 0;
+        text-transform:uppercase;
+        line-height: 24px;
+}
+
+div.AFMobileGalleryTopBar span.AFMobileTopBarText
+{
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #E7E4D7;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+}
+
+div.AFMobileGallerySearchText
+{
+    margin-left: 9px;
+}
+
+div.AFMobileImageGalleryList
+{
+    padding: 0;
+    margin: 0 0 0 2%;
+}
+
+div.AFMobileImageGalleryColumn1
+{
+    float: left;
+    width: 46%;
+    margin: 1.5% 1.5% 0;
+}
+
+div.AFMobileImageGalleryColumn2
+{
+    float: right;
+    width: 46%;
+    margin: 1.5% 1.5% 0;
+}
+
+div.AFMobilePager
+{
+}
+
+a.AFMobileClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.AFMobileSearchResult
+{
+    padding-left:4px;
+}
+
+div.AFMobileImageGallerylvItem
+{
+        list-style: none outside none;
+        margin-bottom: 6%;
+        /*width: 46%;
+        margin: 1.5%;
+        float: left;*/
+        /*height: 231px;*/
+}
+
+div.AFMobileImageGallerylvItemAlt
+{
+        list-style: none outside none;
+        margin-bottom: 6%;
+        /*width: 46%;
+        margin: 1.5%;
+        float: left;*/
+        /*height: 231px;*/
+}
+
+div.AFMobileImageGallerylvImage
+{
+    text-align: center;
+        float: left;
+        width: 48%;
+        overflow: hidden;
+        margin-left: 3%;
+}
+
+img.AFMobileGalleryImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+div.AFMobileImageGallerylvInfo
+{
+        float: right;
+        width: 48%;
+}
+
+span.AFMobileImageGallerylvLabel
+{
+    font-weight: bold;
+}
+
+div.AFMobileGalleryBottomBar
+{
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+}
+
+/*Details*/
+div.AFMobileImageDiv
+{
+    list-style: none outside none;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+div.AFMobileImageDetailsTop
+{
+    padding-top: 15px;
+    text-align: center;
+}
+
+a.AFMobileDetailsImage
+{
+    vertical-align: middle;
+}
+
+img.AFMobileDetailsImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 1.5%;
+}
+
+span.AFMobileSpanFilename
+{
+    float: left;
+    font-weight: bold;
+}
+
+span.AFMobileSpanAuthor
+{
+    float: left;
+    font-weight: bold;
+}
+
+div.AFMobileImageGalleryDivMiddle
+{
+    
+}
+
+div.AFMobileImageInfo
+{
+    min-height: 20px;
+    padding-top: 5px;
+}
+
+span.AFMobileSpanDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div.AFMobileAddThisInfo
+{
+    float: right;
+    width: 140px;
+}
+
+a.AFMobileDetailsDownload
+{
+    text-decoration: none !important;
+    color: #9a2d2c !important;
+}
+
+span.AFMobileDetailsComment
+{
+    font-size: 10px;
+    font-style: italic;
+}
+
+div.AFMobileImageGalleryDivBottom
+{
+    
+}
+
+div.AFMobileImageGalleryDivBottomLeft
+{
+    float: left;
+}
+
+div.AFMobileDetailsRelated
+{
+    float: left;
+    margin-left:18px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+span.AFMobileSpanRelated
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.AFMobileDetailsRelatedList
+{
+    padding-left: 15px;
+    font-weight: bold;
+    color: #036;
+    text-decoration: none;
+}
+
+div.AFMobileImageGalleryDivBottomRight
+{
+    float: right;
+}
+
+a.AFMobileBackToGallery
+{
+    font-size: 14px;
+}
+
+/*Pager*/
+div.AFMobilePagerDiv
+{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+div.AFMobilePagerPrevDiv
+{
+    float: left;
+}
+
+a.AFMobilePagerPrev
+{
+}
+
+div.AFMobilePagerNextDiv
+{
+    float: right;
+    margin-bottom: 15px;
+}
+
+a.AFMobilePagerNext
+{
+}
+
+span.AFMobileNumericSpan
+{
+    color: #11395F;
+    font-size: 14px;
+}
+
+a.AFMobileSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.AFMobilePage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+
+
+/*****************/
+/*DOD CSS*/
+/***************/
+
+/*Gallery*/
+div.DODImageGallery
+{
+    padding-bottom: 0px !important;
+}
+
+div.DODImageGallerySearchDiv
+{
+    height: 100px;
+    position: relative;
+}
+
+div.DODImageGallerySearchDiv .DODSearchText
+{
+    position:absolute;
+    left:10px;
+    top:28px;
+}
+
+div.DODImageGallerySearchDiv input.DODSearchTextbox
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+    left:67px;
+    top:26px;
+}
+
+div.DODImageGallerySearchDiv input.DODSearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:26px;
+}
+
+div.DODImageGallerySearchDiv span.DODSearchCategoryText
+{
+    position:absolute;
+    left:419px;
+    top:28px;
+}
+
+div.DODImageGallerySearchDiv select.DODSearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:476px;
+    top:26px;
+}
+
+.DODImageGallerySearchDiv .DODSearchTagText
+{
+    position:absolute;
+		left:38px;
+    top:56px;
+}
+
+.DODImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+		left:67px;
+    top:54px;
+}
+
+.DODImageGallerySearchDiv input.DODSearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:54px;
+}
+
+div.DODImageGallerySearchDiv span.DODSortByText
+{
+    position:absolute;
+    left:789px;
+    top:28px;
+}
+
+div.DODImageGallerySearchDiv select.DODSortBy
+{
+    width: 100px;
+    height:20px;
+    position:absolute;
+    left:837px;
+    top:26px;
+}
+
+div.DODGalleryTopBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/blueheader.png");
+}
+
+div.DODPager
+{
+}
+
+a.DODClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.DODSearchResult
+{
+    padding-left:4px;
+}
+
+div.DODImageGallerylvItem
+{
+    float: left;
+    height: 260px;
+    list-style: none outside none;
+    margin: 0 7px 12px 0;
+    padding: 10px 0 0;
+    width: 224px;
+}
+
+div.DODImageGallerylvItemDocument
+{
+    float: left;
+    list-style: none outside none;
+    margin: 0 7px 12px 0;
+    padding: 10px 0 0;
+    width: 224px;
+}
+
+div.DODImageGallerylvImage
+{
+    width: 215px;
+    height: 144px;
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+img.DODGalleryImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.DODImageGallerylvCommand
+{
+    background: url("images/linkbar.jpg") repeat scroll 0 0 transparent;
+}
+
+div.DODImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.DODImageGalleryDownload
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/downloadlink.png") no-repeat scroll 30px 5px transparent;
+}
+
+a.DODImageGalleryView
+{
+    color: #000000;
+    display: block;
+    height: 20px;
+    line-height: 24px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photodetailslink.png") no-repeat scroll 30px 5px transparent;
+}
+
+span.DODImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    height: 21px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.DODGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/blueheader.png");
+}
+
+div.DODImageGallerylvDocument
+{
+    width: 215px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.DODImageGallerySearchDiv span.DODSearchDocumentText
+{
+    position:absolute;
+    left:419px;
+    /*top:56px;*/
+    top:28px;
+}
+
+div.DODImageGallerySearchDiv select.DODSearchDocumentType
+{
+    width: 180px;
+    height:20px;
+    position:absolute;
+    left:511px;
+    /*top:52px;*/
+    top:26px;
+}
+
+/*Details*/
+div.DODImageDiv
+{
+    list-style: none outside none;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.DODImageGalleryDivLeft
+{
+    width: 48%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.DODImageImg
+{
+    width: 433px;
+    float: left;
+    text-align: center;
+}
+
+img.DODDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.DODSpanFilename
+{
+    float: left;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+span.DODSpanAuthor
+{
+    float: right;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+div.DODDetailsRelated
+{
+    float: left; margin-left: 18px; padding-left: 15px; padding-top: 25px;
+}
+
+span.DODSpanRelated
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.DODDetailsRelatedList
+{
+    padding-left: 15px; font-weight: bold; color: #036; text-decoration: none;
+}
+
+div.DODImageGalleryDivRight
+{
+    width: 48%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.DODImageInfo
+{
+    float: right;
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.DODSpanDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.DODDetailsDownload
+{
+    text-decoration: none !important;
+    color: #9a2d2c !important;
+}
+
+a.DODBackToGallery
+{
+    float: right
+}
+
+/*Pager*/
+div.DODPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.DODNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.DODSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.DODPage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*****************/
+/*Army CSS*/
+/***************/
+
+/*Gallery*/
+div.ArmyImageGallery
+{
+    padding-bottom: 0px !important;
+}
+
+div.ArmyImageGallerySearchDiv
+{
+    height: 100px;
+    position: relative;
+}
+
+div.ArmyImageGallerySearchDiv .ArmySearchText
+{
+    position:absolute;
+    left:0px;
+    top:28px;
+}
+
+div.ArmyImageGallerySearchDiv input.ArmySearchTextbox
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+		left:57px;
+    top:26px;
+}
+
+div.ArmyImageGallerySearchDiv input.ArmySearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:246px;
+    top:26px;
+}
+
+div.ArmyImageGallerySearchDiv span.ArmySearchCategoryText
+{
+    position:absolute;
+    left:401px;
+    top:28px;
+}
+
+div.ArmyImageGallerySearchDiv select.ArmySearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:460px;
+    top:26px;
+}
+
+.ArmyImageGallerySearchDiv .ArmySearchTagText
+{
+    position:absolute;
+		left:28px;
+    top:56px;
+}
+
+.ArmyImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+		left:57px;
+    top:54px;
+}
+
+.ArmyImageGallerySearchDiv input.ArmySearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:246px;
+    top:54px;
+}
+
+div.ArmyImageGallerySearchDiv span.ArmySortByText
+{
+    position:absolute;
+    left:772px;
+    top:28px;
+}
+
+div.ArmyImageGallerySearchDiv select.ArmySortBy
+{
+    width: 100px;
+    height:20px;
+    position:absolute;
+    left:820px;
+    top:26px;
+}
+
+div.ArmyGalleryTopBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background-color:#777;
+    background:url("images/greyheader.png");
+}
+
+div.ArmyPager
+{
+}
+
+a.ArmyClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.ArmySearchResult
+{
+    padding-left:4px;
+}
+
+div.ArmyImageGalleryImagesContainer
+{
+    width: 980px;
+    margin-top: 15px;
+}
+
+div.ArmyImageGallerylvItem
+{
+    background-color: White;
+    float: left;
+    height: 216px;
+    list-style: none outside none;
+    margin: 0 5px 10px 0;
+    padding: 10px 0 0;
+    width: 224px;
+    border-width: thin;
+    border-color: Black;
+    border-style: solid;
+}
+
+div.ArmyImageGallerylvItemDocument
+{
+    background-color: White;
+    float: left;
+    list-style: none outside none;
+    margin: 0 5px 10px 0;
+    padding: 10px 0 0;
+    width: 224px;
+    border-width: thin;
+    border-color: Black;
+    border-style: solid;
+}
+
+div.ArmyImageGallerylvImage
+{
+    width: 215px;
+    height: 144px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+img.ArmyGalleryImage
+{
+    border-color: #113b62 !important;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.ArmyImageGallerylvCommand
+{
+    background: url("images/linkbar.jpg") repeat scroll 0 0 transparent;
+}
+
+div.ArmyImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.ArmyImageGalleryDownload
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/downloadlink.png") no-repeat scroll 29px 5px transparent;
+}
+
+a.ArmyImageGalleryView
+{
+    color: #000000;
+    display: block;
+    height: 20px;
+    line-height: 24px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photodetailslink.png") no-repeat scroll 29px 5px transparent;
+}
+
+span.ArmyImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    height: 21px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.ArmyGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/blueheader.png");
+}
+
+div.ArmyImageGallerylvDocument
+{
+    width: 215px;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.ArmyImageGallerySearchDiv span.ArmySearchDocumentText
+{
+    position:absolute;
+    left:401px;
+    /*top:56px;*/
+    top:28px;
+}
+
+div.ArmyImageGallerySearchDiv select.ArmySearchDocumentType
+{
+    width: 175px;
+    height:20px;
+    position:absolute;
+    left:501px;
+    /*top:52px;*/
+    top:26px;
+}
+
+/*Details*/
+div.ArmyImageDiv
+{
+    list-style: none outside none;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.ArmyImageGalleryDivLeft
+{
+    width: 55%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.ArmyImageImg
+{
+    text-align: center;
+}
+
+img.ArmyDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.ArmySpanFilename
+{
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+span.ArmySpanAuthor
+{
+    font-weight: bold;
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+div.ArmyImageGalleryDivLeft h1
+{
+    font-style: italic;
+}
+
+span.ArmyDetailsTitle
+{
+    font-style: italic;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+span.ArmyDetailsCaption
+{
+    font-size: 13px;
+}
+
+div.ArmyDetailsRelated
+{
+    
+}
+
+span.ArmySpanRelated
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+}
+
+ul.ArmyDetailsRelatedList
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+    list-style-type: circle !important;
+}
+
+ul.ArmyDetailsRelatedList li
+{
+    margin-top: 10px;
+    list-style-type: circle !important;
+}
+
+ul.ArmyDetailsRelatedList li a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: #555555;
+}
+
+div.ArmyImageGalleryDivRight
+{
+    width: 40%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.ArmyImageInfo
+{
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.ArmySpanDate
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.ArmyDetailsDownload
+{
+    text-decoration: none !important;
+    color: #990000 !important;
+    font-size: 14px;
+}
+
+a.ArmyDetailsDownload span.ImgSize
+{
+    font-size: 12px;
+    font-style: italic;
+}
+
+span.ArmyDetailsTagsTitle
+{
+    font-size: 18px;
+    color: #555555;
+}
+
+span.ArmyDetailsTagsBody
+{
+    font-style: italic;
+    color: #555555;
+}
+
+img.ArmyBackToGalleryImg
+{
+    margin-bottom: 3px;
+}
+
+a.ArmyBackToGallery
+{
+    color: #990000 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Pager*/
+div.ArmyPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.ArmyNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.ArmySelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.ArmyPage
+{
+    text-decoration: none !important;
+    color: #a0a0a0 !important;
+    font-size: 15px;
+}
+
+a.ArmyPagerNext
+{
+    display: block;
+    float: right;
+    margin-left: 3px;
+    margin-top: 6px;
+}
+
+a.ArmyPagerPrev
+{
+    display: block;
+    float: left;
+    margin-right: 3px;
+    margin-top: 6px;
+}
+
+
+
+/***********/
+/* JCS CSS */
+/***********/
+
+/*Gallery*/
+div.JCSImageGallery
+{
+    padding-bottom: 0px !important;
+}
+
+div.JCSImageGallerySearchDiv
+{
+    height: 100px;
+    position: relative;
+}
+
+div.JCSImageGallerySearchDiv .JCSSearchText
+{
+    position:absolute;
+    left:10px;
+    top:28px;
+}
+
+div.JCSImageGallerySearchDiv input.JCSSearchTextbox
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+    left:67px;
+    top:26px;
+}
+
+div.JCSImageGallerySearchDiv input.JCSSearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:26px;
+}
+
+div.JCSImageGallerySearchDiv span.JCSSearchCategoryText
+{
+    position:absolute;
+    left:421px;
+    top:28px;
+}
+
+div.JCSImageGallerySearchDiv select.JCSSearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:484px;
+    top:26px;
+}
+
+.JCSImageGallerySearchDiv .JCSSearchTagText
+{
+    position:absolute;
+		left:38px;
+    top:56px;
+}
+
+.JCSImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 180px;
+    height:14px;
+    position:absolute;
+		left:67px;
+    top:54px;
+}
+
+.JCSImageGallerySearchDiv input.JCSSearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:256px;
+    top:54px;
+}
+
+div.JCSImageGallerySearchDiv span.JCSSortByText
+{
+    position:absolute;
+    left:798px;
+    top:28px;
+}
+
+div.JCSImageGallerySearchDiv select.JCSSortBy
+{
+    width: 100px;
+    height:20px;
+    position:absolute;
+    left:851px;
+    top:26px;
+}
+
+div.JCSGalleryTopBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+    font-weight:bold;
+    color:#00033;
+    text-transform:uppercase;
+    background:url("images/search_tan_bg.png");
+}
+
+div.JCSPager
+{
+}
+
+a.JCSClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.JCSSearchResult
+{
+    padding-left:4px;
+}
+
+div.JCSImageGallerylvItem
+{
+    float: left;
+    height: 260px;
+    list-style: none outside none;
+    margin: 0 7px 12px 0;
+    padding: 10px 0 0;
+    width: 224px;
+}
+
+div.JCSImageGallerylvItemDocument
+{
+    float: left;
+    list-style: none outside none;
+    margin: 0 7px 12px 0;
+    padding: 10px 0 0;
+    width: 224px;
+}
+
+div.JCSImageGallerylvImage
+{
+    width: 215px;
+    height: 144px;
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+img.JCSGalleryImage
+{
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.JCSImageGallerylvCommand
+{
+    background: url("images/linkbar.jpg") repeat scroll 0 0 transparent;
+}
+
+div.JCSImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.JCSImageGalleryDownload
+{
+    color: #000000;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/downloadlink.png") no-repeat scroll 30px 5px transparent;
+}
+
+a.JCSImageGalleryView
+{
+    color: #000000;
+    display: block;
+    height: 20px;
+    line-height: 24px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: url("images/photodetailslink.png") no-repeat scroll 30px 5px transparent;
+}
+
+span.JCSImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    height: 21px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.JCSGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+    font-weight:bold;
+    color:#000033;
+    text-transform:uppercase;
+    background:url("images/search_tan_bg.png");
+}
+
+div.JCSImageGallerylvDocument
+{
+    width: 215px;
+    height: 145px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.JCSImageGallerySearchDiv span.JCSSearchDocumentText
+{
+    position:absolute;
+    left:421px;
+    /*top:56px;*/
+    top:28px;
+}
+
+div.JCSImageGallerySearchDiv select.JCSSearchDocumentType
+{
+    width: 175px;
+    height:20px;
+    position:absolute;
+    left:524px;
+    /*top:52px;*/
+    top:26px;
+}
+
+
+/*Details*/
+div.JCSImageDiv
+{
+    list-style: none outside none;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.JCSImageGalleryDivLeft
+{
+    width: 48%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.JCSImageImg
+{
+    width: 433px;
+    float: left;
+    text-align: center;
+}
+
+img.JCSDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.JCSSpanFilename
+{
+    float: left;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+span.JCSSpanAuthor
+{
+    float: right;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+div.JCSDetailsRelated
+{
+    float: left; margin-left: 18px; padding-left: 15px; padding-top: 25px;
+}
+
+span.JCSSpanRelated
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.JCSDetailsRelatedList
+{
+    padding-left: 15px; font-weight: bold; color: #036; text-decoration: none;
+}
+
+div.JCSImageGalleryDivRight
+{
+    width: 48%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.JCSImageInfo
+{
+    float: right;
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.JCSSpanDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.JCSDetailsDownload
+{
+    text-decoration: none !important;
+    color: #9a2d2c !important;
+}
+
+a.JCSBackToGallery
+{
+    float: right
+}
+
+/*Pager*/
+div.JCSPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.JCSNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.JCSSelectedPage
+{
+    text-decoration: none !important;
+    color: #000033 !important;
+    font-size: 15px;
+}
+
+a.JCSPage
+{
+    text-decoration: none !important;
+    color: #000033 !important;
+    font-size: 15px;
+}
+
+
+.JCSPagerPrev,
+.JCSPagerPrev{font-family:"Times New Roman",Times,serif; color:#000033 !important;font-size: 15px;}
+a.JCSPagerPrev,
+a.JCSPagerPrev:link, active, visted{color:#000033;text-decoration:none;}
+a.JCSPagerPrev:hover{color:#334C64;text-decoration:none;}
+
+.JCSPagerNext,
+.JCSPagerNext{font-family:"Times New Roman",Times,serif; color:#000033 !important;font-size: 15px;}
+a.JCSPagerNext,
+a.JCSPagerNext:link, active, visted{color:#000033;text-decoration:none;}
+a.JCSPagerNext:hover{color:#334C64;text-decoration:none;}
+
+
+/*****************/
+/*Defense.gov CSS*/
+/***************/
+
+/*Gallery*/
+div.DGOVImageGallery
+{
+    padding-bottom: 4% !important;
+}
+
+@media (max-width: 1199px), (max-device-width: 1199px)
+{
+    div.DGOVImageGalleryDivLeft
+    {
+        width: 45% !important;
+        margin-left: 3% !important;
+    }
+    /*Four Images*/
+    div.DGOVImageGallerylvItem
+    {
+        width: 23% !important;
+    }
+
+    div.DGOVImageGallerylvItemDocument
+    {
+        width: 23% !important;
+    }
+}
+
+@media (max-width: 980px), (max-device-width: 980px)
+{
+    div.DGOVImageGalleryDivLeft
+    {
+        width: 55% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 991px), (max-device-width: 991px)
+{
+    img.DGOVDetailsImage
+    {
+        width: 100% !important;
+    }
+    div.DGOVImageGalleryDownloadDiv
+    {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    div.DGOVImageGalleryViewDiv
+    {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    a.DGOVImageGalleryView
+    {
+        margin-left: 0 !important;
+    }
+    a.DGOVImageGalleryDownload
+    {
+        margin-left: 0 !important;
+    }
+    div.DGOVDropDown
+    {
+        margin-bottom: 1%;
+    }
+    div.DGOVImageGallerylvItemDocument
+    {
+        height: 246px !important;
+    }
+    span.DGOVImageGalleryFilename
+    {
+        height: 52px;
+    }
+    div.DGOVImageGallerylvDocument span.ImageGalleryDocument
+    {
+        font-size: 6em !important;
+    }
+}
+
+@media (max-width: 767px), (max-device-width: 767px)
+{
+    /*Three Images*/
+    div.DGOVImageGallerylvItem
+    {
+        width: 31% !important;
+    }
+    div.DGOVImageGallerylvItemDocument
+    {
+        width: 31% !important;
+    }
+}
+
+@media (max-width: 545px), (max-device-width: 545px)
+{
+    /*Two Images*/
+    div.DGOVImageGallerylvItem
+    {
+        width: 48% !important;
+        height: 180px !important;
+    }
+    div.DGOVImageGallerylvItemDocument
+    {
+        width: 48% !important;
+    }
+    img.DGOVGalleryImage
+    {
+        max-height: 100px;
+    }
+}
+
+@media (max-width: 500px), (max-device-width: 500px)
+{
+    div.DGOVImageGalleryDivLeft
+    {
+        width: 90% !important;
+    }
+    div.DGOVImageGalleryDivRight
+    {
+        width: 100% !important;
+    }
+    div.DGOVSearch
+    {
+        width: 95% !important;
+    }
+}
+
+div.DGOVImageGalleryDownloadDiv
+{
+    float: left;
+    display: block;
+    margin-left: 5%;
+}
+
+div.DGOVImageGalleryDownloadDivDocument
+    {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+div.DGOVImageGalleryViewDiv
+{
+    float: left;
+    display: block;
+}
+
+nav.DGOVPager
+{
+    text-align: right;
+    margin-right: 1%;
+}
+
+div.DGOVSearch
+{
+    width: 215px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1%;
+}
+
+div.DGOVDropDown
+{
+    float: left;
+    margin-right: 10px;
+}
+
+div.DGOVImageGallerySearchDiv
+{
+    position: relative;
+    padding: 20px 0px;
+    margin-left: 1%;
+}
+
+div.DGOVImageGallerySearchDiv .DGOVSearchText
+{
+    position:absolute;
+    left:0px;
+    top:28px;
+}
+
+div.DGOVImageGallerySearchDiv input.DGOVSearchTextbox
+{
+    width: 215px;
+    height:14px;
+    position:absolute;
+	left:60px;
+    top:32px;
+}
+
+div.DGOVImageGallerySearchDiv input.DGOVSearchSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:281px;
+    top:30px;
+}
+
+div.DGOVImageGallerySearchDiv span.DGOVSearchCategoryText
+{
+    position:absolute;
+    left:369px;
+    top:28px;
+}
+
+div.DGOVImageGallerySearchDiv select.DGOVSearchCategory
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:432px;
+    top:28px;
+}
+
+.DGOVImageGallerySearchDiv .DGOVSearchTagText
+{
+    position:absolute;
+		left:28px;
+    top:56px;
+}
+
+.DGOVImageGallerySearchDiv .imageGalleryTagFilterInput
+{
+    width: 215px;
+    height:14px;
+    position:absolute;
+	left:60px;
+    top:60px;
+}
+
+.DGOVImageGallerySearchDiv input.DGOVSearchTagSubmit
+{
+    width:64px;
+    height:19px;
+    position:absolute;
+    left:281px;
+    top:58px;
+}
+
+div.DGOVImageGallerySearchDiv span.DGOVSortByText
+{
+    position:absolute;
+    left:660px;
+    top:28px;
+}
+
+div.DGOVImageGallerySearchDiv select.DGOVSortBy
+{
+    width: 215px;
+    height:20px;
+    position:absolute;
+    left:712px;
+    top:28px;
+}
+
+div.DGOVGalleryTopBar
+{
+}
+
+div.DGOVPager
+{
+}
+
+a.DGOVClearSearch
+{
+    color: #990000; display: block;
+}
+
+span.DGOVSearchResult
+{
+    padding-left:4px;
+}
+
+div.DGOVImageGalleryImagesContainer
+{
+}
+
+div.DGOVImageGallerylvItem
+{
+    background-color: White;
+    float: left;
+    list-style: none outside none;
+    margin: 0 1% 20px 1%;
+    width: 18%;
+    height: 220px;
+    border-width: thin;
+    border-color: #d7dde3;
+    border-style: solid;
+    padding: 4px 0px;
+}
+
+div.DGOVImageGallerylvItemDocument
+{
+    background-color: White;
+    float: left;
+    list-style: none outside none;
+    margin: 0 1% 20px 1%;
+    width: 18%;
+    height: 220px;
+    border-width: thin;
+    border-color: #d7dde3;
+    border-style: solid;
+    padding: 4px 0px;
+}
+
+div.DGOVImageGallerylvImage
+{
+    overflow: hidden;
+    width: 100%;
+    padding: 4px;
+}
+
+img.DGOVGalleryImage
+{
+    border-color: #113b62 !important;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 auto;
+}
+
+div.DGOVImageGallerylvCommand
+{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+div.DGOVImageGallerylvCommand a
+{
+    color:Black !important;
+    text-decoration:none !important;
+}
+
+a.DGOVImageGalleryDownload
+{
+    color: #000000;
+    height: 26px;
+    line-height: 26px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a.DGOVImageGalleryView
+{
+    color: #000000;
+    height: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+span.DGOVImageGalleryEmailBack
+{
+    color: #000000;
+    display: block;
+    /*height: 21px;*/
+    line-height: 26px;
+    /*padding-left: 25px;*/
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+div.DGOVGalleryBottomBar
+{
+    height:25px;
+    line-height:25px;
+    font-size:10px;
+    font-weight:bold;
+    color:White;
+    text-transform:uppercase;
+    background:url("images/blueheader.png");
+}
+
+div.DGOVImageGallerylvDocument
+{
+    overflow: hidden;
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+div.DGOVImageGallerylvDocument span.ImageGalleryDocument
+{
+    margin-left: 0px !important;
+    font-size: 6.8em !important;
+}
+
+/*Details*/
+div.DGOVImageDiv
+{
+    list-style: none outside none;
+    margin-top: 12px;
+    padding-bottom: 35px;
+    position: relative;
+    min-height: 350px;
+}
+
+div.DGOVImageGalleryDivLeft
+{
+    width: 45%;
+    margin-left: 10%;
+    float: left;
+    padding-top: 15px;
+}
+
+div.DGOVImageImg
+{
+    text-align: center;
+}
+
+img.DGOVDetailsImage
+{
+    border-color: #999999; border-width: 1px; border-style: solid;
+}
+
+span.DGOVSpanFilename
+{
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+span.DGOVSpanAuthor
+{
+    font-weight: bold;
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+div.DGOVImageGalleryDivLeft h1
+{
+    font-style: italic;
+}
+
+span.DGOVDetailsTitle
+{
+    font-style: italic;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+span.DGOVDetailsCaption
+{
+    font-size: 13px;
+}
+
+div.DGOVDetailsRelated
+{
+    
+}
+
+span.DGOVSpanRelated
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+}
+
+ul.DGOVDetailsRelatedList
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+    list-style-type: circle !important;
+}
+
+ul.DGOVDetailsRelatedList li
+{
+    margin-top: 10px;
+    list-style-type: circle !important;
+}
+
+ul.DGOVDetailsRelatedList li a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: #555555;
+}
+
+div.DGOVImageGalleryDivRight
+{
+    width: 40%;
+    float: right;
+    padding-top: 15px;
+}
+
+div.DGOVImageInfo
+{
+    margin-right: 2%;
+    padding-top: 5px;
+    width: 445px;
+}
+
+span.DGOVSpanDate
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.DGOVDetailsDownload
+{
+    text-decoration: none !important;
+    color: #990000 !important;
+    font-size: 14px;
+}
+
+a.DGOVDetailsDownload span.ImgSize
+{
+    font-size: 12px;
+    font-style: italic;
+}
+
+span.DGOVDetailsTagsTitle
+{
+    font-size: 18px;
+    color: #555555;
+}
+
+span.DGOVDetailsTagsBody
+{
+    font-style: italic;
+    color: #555555;
+}
+
+img.DGOVBackToGalleryImg
+{
+    margin-bottom: 3px;
+}
+
+a.DGOVBackToGallery
+{
+    color: #990000 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Pager*/
+div.DGOVPagerDiv
+{
+    float: right;
+    margin-right: 5px;
+}
+
+span.DGOVNumericSpan
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 27px;
+}
+
+a.DGOVSelectedPage
+{
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 15px;
+}
+
+a.DGOVPage
+{
+    text-decoration: none !important;
+    color: #808080 !important;
+    font-size: 15px;
+}
+
+a.DGOVPagerNext
+{
+    display: block;
+    float: right;
+    margin-left: 3px;
+    /*margin-top: 6px;*/
+}
+
+a.DGOVPagerPrev
+{
+    display: block;
+    float: left;
+    margin-right: 3px;
+    /*margin-top: 6px;*/
+}
+
+/*Carousel*/
+div.carousel {
+  width:100%;
+  height:70px;
+  background:none;
+  position:relative;
+  overflow:hidden;
+  z-index:200;
+  font-family:Arial,Helvetica,sans-serif;
+  visibility:hidden;
+}
+div.slideContainer {
+  width:100%;
+  height:100px;
+  position:absolute;
+  z-index:202;
+  overflow:hidden;
+}
+div.slideContainer div.slide {
+  width:100%;
+  height:100px;
+}
+div.slideContainer div.slide div.oneImage {
+  position:relative;
+  background-color: #123B69;
+  width:80px;
+  height:54px;
+  margin-left:8px;
+  margin-right:7px;
+  margin-top:8px;
+  float:left;
+  cursor:pointer;
+  overflow:hidden;
+  box-shadow: 0 0 8px rgba(51, 51, 51, 1);
+  -webkit-box-shadow: 0 0 8px rgba(51, 51, 51, 1);
+  -moz-box-shadow: 0 0 8px rgba(51, 51, 51, 1);
+}
+div.slideContainer div.slide div.oneImage img {
+  position:absolute;
+}
+div.slideContainer div.slide div.selected {
+  border-color:Black;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter:alpha(opacity=100);
+  -moz-opacity:1.0;
+  -khtml-opacity:1.0;
+  opacity:1.0;
+}

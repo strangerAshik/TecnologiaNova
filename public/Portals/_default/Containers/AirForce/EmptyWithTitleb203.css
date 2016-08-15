@@ -1,0 +1,4 @@
+.Emptycontainer{  padding: 0px 0 0px 0; display:inline-block; width:100%;  }
+.Emptycontainer h2.Title{ height:40px; text-align:left; color:#11395f; padding:0px;  margin:0px; line-height:40px; text-transform:uppercase;}
+.Emptycontainer h2.Title .tt{ padding-left:0px; font-size:26px;text-transform:uppercase;}
+.Emptycontainer .containerpane {}

@@ -1,0 +1,1057 @@
+﻿/************     CAROUSEL 1      ************/
+.carousel-1 {
+	width: 667px;
+	height: 110px;
+	background: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 200;
+	font-family: Arial,Helvetica,sans-serif;
+	visibility: hidden;
+}
+
+	.carousel-1 .slideContainer {
+		width: 592px;
+		height: 100px;
+		position: absolute;
+		left: 38px;
+		top: 2px;
+		z-index: 202;
+		overflow: hidden;
+	}
+
+	.carousel-1 .pagerContainer {
+		width: 667px;
+		height: 84px;
+		z-index: 201;
+		position: absolute;
+		left: 0px;
+		top: 10px;
+	}
+
+	.carousel-1 .slide {
+		width: 592px;
+		height: 100px;
+	}
+
+	.carousel-1 .oneImage {
+        display: block;
+		position: relative;
+		width: 128px;
+		height: 84px;
+        background-color:#123B69;
+		margin-left: 16px;
+		margin-top: 8px;
+		float: left;
+
+		cursor: pointer;
+		overflow: hidden;
+		box-shadow: 0 0 8px rgba(51, 51, 51, 1);
+		-webkit-box-shadow: 0 0 8px rgba(51, 51, 51, 1);
+		-moz-box-shadow: 0 0 8px rgba(51, 51, 51, 1);
+        text-decoration: none;
+	}
+
+	.carousel-1 .ieShadow {
+		background-color: #333333;
+		filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=3, enabled='true');
+		position: absolute;
+		left: 0px;
+		top: 5px;
+		width: 129px;
+		height: 85px;
+	}
+
+	.carousel-1 .oneImage img {
+		position: absolute;
+	}
+
+	.carousel-1 .slide .selected {
+		border-color: Black;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		-moz-opacity: 1.0;
+		-khtml-opacity: 1.0;
+		opacity: 1.0;
+	}
+
+	.carousel-1 .previousButton, .carousel-1 .nextButton {
+		display: block;
+		width: 24px;
+		height: 72px;
+		float: left;
+		background: url('../images/carouselSprite.png');
+		position: absolute;
+	}
+
+	.carousel-1 .previousButton {
+		background-position: 0px 0px;
+		left: 14px;
+	}
+
+	.carousel-1 .nextButton {
+		background-position: -24px 0px;
+		left: 630px;
+	}
+
+	.carousel-1 .moreButton {
+		display: block;
+		width: 75px;
+		height: 23px;
+		line-height: 23px;
+		font-size: 10px;
+		font-weight: bold;
+		text-shadow: 0px 1px 1px White;
+		color: Black;
+		cursor: pointer;
+		position: absolute;
+		right: 12px;
+		top: 6px;
+	}
+
+	.carousel-1 .ieFix {
+		height: 22px;
+		line-height: 22px;
+	}
+
+	.carousel-1 .moreButton span {
+		display: block;
+		width: 9px;
+		height: 9px;
+		background: url('../images/carouselSprite.png') -44px 0px;
+		position: absolute;
+		right: 0px;
+		top: 8px;
+	}
+
+	.carousel-1 .pagerContainer .caption {
+		width: 250px;
+		font-size: 10px;
+		height: 30px;
+		line-height: 12px;
+		text-align: center;
+		color: #555555;
+		overflow: hidden;
+		position: absolute;
+		left: 105px;
+		top: 7px;
+	}
+
+	.carousel-1 .hidden {
+		display: none;
+	}
+
+    .carousel-1-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .carousel-1 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		margin-left:-7px;
+		margin-top:-7px;
+		z-index: 2;
+	}
+
+    .carousel-1 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}
+
+
+
+/************     CAROUSEL 2      ************/
+.carousel-2 {
+	width: 940px;
+	position: relative;
+	overflow: hidden;
+	z-index: 200;
+	font-family: Arial,Helvetica,sans-serif;
+	visibility: hidden;
+}
+
+	.carousel-2 .slideContainer {
+		width: 940px;
+		height: 112px;
+		position: relative;
+		left: 0px;
+		z-index: 201;
+		overflow: hidden;
+	}
+
+	.carousel-2 .pagerContainer {
+		width: 940px;
+		height: 33px;
+		margin: 15px 0px 0px 0px;
+		z-index: 202;
+		position: relative;
+	}
+
+	.carousel-2 .slideContainer .slide {
+		width: 940px;
+		height: 110px;
+	}
+
+		.carousel-2 .slideContainer .slide .oneImage {
+            display:block;
+			position: relative;
+			width: 170px;
+			height: 110px;
+			margin-left: 20px;
+            background-color: #2f2d26;
+			border: 1px solid #808080;
+			float: left;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+			.carousel-2 .slideContainer .slide .oneImage:first-child {
+				margin-left: 0px;
+			}
+
+			.carousel-2 .slideContainer .slide .oneImage img {
+				position: absolute;
+			}
+
+			.carousel-2 .slideContainer .slide .oneImage .isMobile {
+				max-width: 100%;
+				max-height: 100%;
+			}
+
+		.carousel-2 .slideContainer .slide .selected {
+			border-color: Black;
+		}
+
+	.carousel-2 .pagerContainer .previousButton, .carousel-2 .pagerContainer .nextButton {
+		display: block;
+		width: 22px;
+		height: 22px;
+		background: url('../images/carouselSprite.png');
+		position: absolute;
+		top: 8px;
+	}
+
+	.carousel-2 .pagerContainer .previousButton {
+		background-position: 0px -72px;
+		left: 0px;
+	}
+
+	.carousel-2 .pagerContainer .nextButton {
+		background-position: -22px -72px;
+		left: 31px;
+	}
+
+	.carousel-2 .pagerContainer .moreButton {
+		display: block;
+		width: 80px;
+		height: 23px;
+		line-height: 23px;
+		font-size: 10px;
+		font-weight: bold;
+		text-shadow: 0px 1px 1px White;
+		color: Black;
+		cursor: pointer;
+		position: absolute;
+		right: 0px;
+		top: 15px;
+		text-align: right;
+	}
+
+	.carousel-2 .pagerContainer .caption {
+		width: 775px;
+		font-size: 10px;
+		height: 30px;
+		line-height: 12px;
+		color: #555555;
+		overflow: hidden;
+		position: absolute;
+		left: 70px;
+		top: 7px;
+	}
+
+	.carousel-2 .pagerContainer .isMobile {
+		width: 150px;
+		left: 75px;
+	}
+
+	.carousel-2 .pagerContainer .hidden {
+		display: none;
+	}
+
+    .carousel-2-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .carousel-2 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		margin-left:-7px;
+		margin-top:-7px;
+		z-index: 2;
+	}
+
+    .carousel-2 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}
+
+
+
+/************     CAROUSEL 3      ************/
+.carousel-3 {
+	width: 296px;
+	overflow: hidden;
+}
+
+	.carousel-3 div.pagerButtons {
+		font-size: 12px;
+		margin-top: 3px;
+	}
+
+		.carousel-3 div.pagerButtons a {
+			display: block;
+			float: right;
+			margin-right: 5px;
+			width: 44px;
+			height: 10px;
+			background: url('../images/carouselSprite.png');
+		}
+
+			.carousel-3 div.pagerButtons a.previousButton {
+				background-position: -53px -72px;
+			}
+
+			.carousel-3 div.pagerButtons a.nextButton {
+				background-position: -97px -72px;
+			}
+
+	.carousel-3 div.slideContainer {
+		width: 296px;
+		height: 198px;
+		position: relative;
+		overflow: hidden;
+		z-index: 3;
+		text-align: center;
+	}
+
+		.carousel-3 div.slideContainer img {
+			position: relative;
+			z-index: 2;
+		}
+
+		.carousel-3 div.slideContainer div.details {
+			width: 296px;
+			height: 125px;
+			color: White;
+			font-size: 12px;
+			line-height: 15px;
+			z-index: 4;
+			position: absolute;
+			left: 0px;
+			top: 184px;
+		}
+
+			.carousel-3 div.slideContainer div.details div.toggle {
+				height: 14px;
+				text-align: right;
+			}
+
+				.carousel-3 div.slideContainer div.details div.toggle span {
+					background: Black;
+					cursor: pointer;
+					-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+					filter: alpha(opacity=60);
+					-moz-opacity: 0.6;
+					-khtml-opacity: 0.6;
+					opacity: 0.6;
+				}
+
+					.carousel-3 div.slideContainer div.details div.toggle span:hover {
+						-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+						filter: alpha(opacity=100);
+						-moz-opacity: 1.0;
+						-khtml-opacity: 1.0;
+						opacity: 1.0;
+					}
+
+			.carousel-3 div.slideContainer div.details div.text {
+				background: Black;
+				height: 120px;
+				padding: 0px 4px 0px 4px;
+				overflow: auto;
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+				filter: alpha(opacity=90);
+				-moz-opacity: 0.9;
+				-khtml-opacity: 0.9;
+				opacity: 0.9;
+				text-align: left;
+			}
+
+		.carousel-3 div.slideContainer div.loadingImage {
+			width: 100%;
+			height: 100%;
+			background: url('../../Templates/Carousel/Images/loading.gif') no-repeat scroll center center transparent;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			display: none;
+			z-index: 5;
+		}
+
+	.carousel-3 div.pagerContainer {
+		width: 296px;
+		height: 60px;
+		margin: 5px auto 0px auto;
+		overflow: hidden;
+	}
+
+		.carousel-3 div.pagerContainer ul {
+			display: block;
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+
+		.carousel-3 div.pagerContainer li {
+			display: block;
+			width: 90px;
+			height: 60px;
+			padding: 0px;
+			margin: 3px;
+			text-align: center;
+			float: left;
+		}
+
+	.carousel-3 div.pagerButtons {
+		width: 296px;
+		clear: both;
+	}
+
+	.carousel-3 div.pagerContainer img {
+		position: relative;
+		cursor: pointer;
+	}
+
+		.carousel-3 div.pagerContainer img.selected {
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)" !important;
+			filter: alpha(opacity=60) !important;
+			-moz-opacity: 0.6 !important;
+			-khtml-opacity: 0.6 !important;
+			opacity: 0.6 !important;
+		}
+
+	.carousel-3 div.clearFloat {
+		width: 0px;
+		height: 0px;
+		line-height: 0px;
+		clear: both;
+	}
+
+    .carousel-3-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .carousel-3 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 38px;
+        top: 26px;
+		z-index: 2;
+	}
+
+    .carousel-3 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}
+
+
+
+/************     CAROUSEL 4      ************/
+.carousel-4 {
+	height: 100px;
+	background: none;
+	position: relative;
+	overflow: hidden;
+	padding: 0px 50px;
+	z-index: 200;
+	font-family: Arial,Helvetica,sans-serif;
+	visibility: hidden;
+}
+
+	.carousel-4 .slideContainer {
+		z-index: 202;
+	}
+
+	.carousel-4 .pagerContainer {
+		z-index: 201;
+	}
+
+	.carousel-4 .slideContainer ul {
+		list-style: none;
+		margin: 0px;
+		padding: 5px 0px 0px 0px;
+	}
+
+	.carousel-4 .slideContainer .oneImage {
+		list-style: none;
+		float: left;
+		margin: 0px 6px;
+		display: block;
+		cursor: pointer;
+		overflow: hidden;
+		box-shadow: 0 0 5px rgba(51, 51, 51, 1);
+		-webkit-box-shadow: 0 0 5px rgba(51, 51, 51, 1);
+		-moz-box-shadow: 0 0 5px rgba(51, 51, 51, 1);
+	}
+
+	.carousel-4 .pagerContainer .previousButton, .carousel-4 .pagerContainer .nextButton {
+		display: block;
+		width: 24px;
+		height: 72px;
+		float: left;
+		background: url('../images/carouselSprite.png');
+		position: absolute;
+	}
+
+	.carousel-4 .pagerContainer .previousButton {
+		background-position: -48px 0px;
+		left: 14px;
+		top: 13px;
+	}
+
+	.carousel-4 .pagerContainer .nextButton {
+		background-position: -72px 0px;
+		right: 14px;
+		top: 13px;
+	}
+
+    .carousel-4-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .carousel-4 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 54px;
+		top:50%;
+		z-index: 2;
+	}
+
+    .carousel-4 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}
+
+
+
+/************     CAROUSEL 5      ************/
+.carousel-5 {
+	width: 940px;
+	position: relative;
+	overflow: hidden;
+	z-index: 200;
+	font-family: Arial,Helvetica,sans-serif;
+	visibility: hidden;
+}
+
+	.carousel-5 div.slideContainer {
+		width: 854px;
+		height: 112px;
+		position: relative;
+		left: 43px;
+		z-index: 201;
+		overflow: hidden;
+	}
+
+	.carousel-5 div.pagerContainer {
+		width: 940px;
+		height: 33px;
+		z-index: 202;
+		position: relative;
+	}
+
+	.carousel-5 div.slideContainer div.slide {
+		width: 854px;
+		height: 110px;
+	}
+
+		.carousel-5 div.slideContainer div.slide div.oneImage {
+			position: relative;
+			width: 161px;
+			height: 112px;
+			margin-left: 12px;
+			float: left;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+			.carousel-5 div.slideContainer div.slide div.oneImage:first-child {
+				margin-left: 0px;
+			}
+
+			.carousel-5 div.slideContainer div.slide div.oneImage img {
+				position: absolute;
+                border: 1px solid #808080;
+                max-width:100%;
+			}
+
+				.carousel-5 div.slideContainer div.slide div.oneImage img.isMobile {
+					max-width: 100%;
+					max-height: 100%;
+                    max-width:100%;
+				}
+
+		.carousel-5 div.slideContainer div.slide div.selected {
+			border-color: Black;
+		}
+
+	.carousel-5 div.pagerContainer a.previousButton, .carousel-5 div.pagerContainer a.nextButton {
+		display: block;
+		width: 22px;
+		height: 40px;
+		background: url('../images/carouselSprite.png');
+		position: absolute;
+		top: -75px;
+	}
+
+	.carousel-5 div.pagerContainer a.previousButton {
+		background-position: -96px 0px;
+		left: 0px;
+	}
+
+	.carousel-5 div.pagerContainer a.nextButton {
+		background-position: -118px 0px;
+		right: 0px;
+	}
+
+	.carousel-5 div.pagerContainer a.moreButton {
+		display: block;
+		width: 80px;
+		height: 23px;
+		line-height: 23px;
+		font-size: 10px;
+		font-weight: bold;
+		text-shadow: 0px 1px 1px White;
+		color: Black;
+		cursor: pointer;
+		position: absolute;
+		right: 0px;
+		top: 15px;
+		text-align: right;
+	}
+
+	.carousel-5 div.pagerContainer span.ieFix {
+		height: 22px;
+		line-height: 22px;
+	}
+
+	.carousel-5 div.pagerContainer div.isMobile {
+		width: 150px;
+		left: 75px;
+	}
+
+	.carousel-5 div.pagerContainer div.hidden {
+		display: none;
+	}
+
+    .carousel-5-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .carousel-5 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		margin-left:-26px;
+        margin-top: -10px;
+		z-index: 2;
+	}
+
+    .carousel-5 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}
+
+
+
+/************     CAROUSEL 6      ************/
+.carousel-6 {
+	width: 460px;
+	height: 120px;
+	background: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 200;
+	font-family: Arial,Helvetica,sans-serif;
+	visibility: hidden;
+}
+
+	.carousel-6 div.slideContainer {
+		width: 460px;
+		height: 80px;
+		position: relative;
+		z-index: 201;
+		overflow: hidden;
+	}
+
+	.carousel-6 div.pagerContainer {
+		background: #C3B79F;
+		width: 460px;
+		height: 33px;
+		margin: 7px 0px 0px 0px;
+		z-index: 202;
+		position: relative;
+	}
+
+	.carousel-6 div.slideContainer div.slide {
+		width: 460px;
+		height: 80px;
+	}
+
+		.carousel-6 div.slideContainer div.slide div.oneImage {
+			position: relative;
+			width: 104px;
+			height: 78px;
+			margin-left: 12px;
+			border: 1px solid #808080;
+			float: left;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+			filter: alpha(opacity=70);
+			-moz-opacity: 0.7;
+			-khtml-opacity: 0.7;
+			opacity: 0.7;
+			cursor: pointer;
+		}
+
+			.carousel-6 div.slideContainer div.slide div.oneImage:first-child {
+				margin-left: 0px;
+			}
+
+			.carousel-6 div.slideContainer div.slide div.oneImage img {
+				position: absolute;
+                max-width: 100%;
+			}
+
+		.carousel-6 div.slideContainer div.slide div.selected {
+			border-color: Black;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+			filter: alpha(opacity=100);
+			-moz-opacity: 1.0;
+			-khtml-opacity: 1.0;
+			opacity: 1.0;
+		}
+
+	.carousel-6 div.pagerContainer a.previousButton, .carousel-6 div.pagerContainer a.nextButton {
+		display: block;
+		width: 22px;
+		height: 22px;
+		float: left;
+		background: url('../images/carouselSprite.png');
+		position: absolute;
+		top: 6px;
+	}
+
+	.carousel-6 div.pagerContainer a.previousButton {
+		background-position: 0px -72px;
+		left: 12px;
+	}
+
+	.carousel-6 div.pagerContainer a.nextButton {
+		background-position: -22px -72px;
+		left: 43px;
+	}
+
+	.carousel-6 div.pagerContainer a.moreButton {
+		display: block;
+		width: 75px;
+		height: 23px;
+		line-height: 23px;
+		font-size: 10px;
+		font-weight: bold;
+		text-shadow: 0px 1px 1px White;
+		color: Black;
+		cursor: pointer;
+		position: absolute;
+		right: 12px;
+		top: 6px;
+	}
+
+	.carousel-6 div.pagerContainer span.ieFix {
+		height: 22px;
+		line-height: 22px;
+	}
+
+	.carousel-6 div.pagerContainer a.moreButton span {
+		display: block;
+		width: 9px;
+		height: 9px;
+		background: url('../images/carouselSprite.png') -44px 0px;
+		position: absolute;
+		right: 0px;
+		top: 8px;
+	}
+
+	.carousel-6 div.pagerContainer div.caption {
+		width: 250px;
+		font-size: 10px;
+		height: 30px;
+		line-height: 15px;
+		text-align: center;
+		color: #555555;
+		overflow: hidden;
+		position: absolute;
+		left: 105px;
+		top: 2px;
+	}
+
+    .carousel-6-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .carousel-6 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		margin-left:-7px;
+		margin-top:-7px;
+		z-index: 2;
+	}
+
+    .carousel-6 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}
+
+
+
+/************     CAROUSEL 7      ************/
+.carousel-7 {
+	background: #F1F5F8;
+	padding: 10px 20px;
+	position: relative;
+	visibility: hidden;
+}
+
+	.carousel-7 .caroufredsel_wrapper {
+		margin: 0 !important;
+	}
+
+	.carousel-7 ul {
+		list-style: none;
+		z-index: 1;
+		height: 80px !important;
+		margin: 0 20px 0 20px;
+	}
+
+	.carousel-7 li {
+		float: left;
+		margin: 0 3px 0 3px;
+	}
+
+		.carousel-7 li a {
+			position: relative;
+		}
+
+		.carousel-7 li img {
+			max-width: 120px;
+			max-height: 80px;
+			overflow: hidden;
+		}
+
+	.carousel-7 .previousButton {
+		background: url('../images/carouselSprite.png') -140px 0 no-repeat;
+		position: absolute;
+		width: 12px;
+		height: 32px;
+		top: 35px;
+		left: 4px;
+		display: block;
+		z-index: 2;
+	}
+
+		.carousel-7 .previousButton:hover {
+			background-position: -153px 0;
+		}
+
+	.carousel-7 .nextButton {
+		background: url('../images/carouselSprite.png') -140px -32px no-repeat;
+		position: absolute;
+		width: 12px;
+		height: 32px;
+		top: 35px;
+		right: 0;
+		margin-right: 4px;
+		display: block;
+		z-index: 2;
+	}
+
+		.carousel-7 .nextButton:hover {
+			background-position: -153px -32px;
+		}
+
+	.carousel-7 .pagerContainer {
+		clear: both;
+		text-align: center;
+		margin: 10px auto 0 auto;
+	}
+
+		.carousel-7 .pagerContainer a {
+			display: inline-block;
+			background: url('../images/carouselSprite.png') -140px -65px no-repeat;
+			width: 7px;
+			height: 7px;
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+
+			.carousel-7 .pagerContainer a.selected {
+				background-position: -153px -65px;
+			}
+
+		.carousel-7 .pagerContainer span {
+			display: none;
+		}
+
+		.carousel-7 .smallVideoOverlay {
+		background: url('../images/dgovImageSprite.png') 0px -37px;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		margin-left:-7px;
+		margin-top:-7px;
+		z-index: 2;
+	}
+
+.carousel-7-tooltip {
+	position: absolute;
+	display: none;
+	left: 0px;
+	top: 0px;
+	background: #000000;
+	color: #FFFFFF;
+	border-radius: 8px;
+	border: 1px solid #FFFFFF;
+	width: 200px;
+	z-index: 3;
+	font-size: 10px;
+	padding: 5px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.carousel-7-tooltip-callout {
+	position: absolute;
+	left: 20px;
+	bottom: -13px;
+	width: 18px;
+	height: 13px;
+	background: url('../images/dgovImageSprite.png') -15px -37px;
+}
+
+.carousel-7-imagedistortion
+    {
+        width: 100%;
+        height: 100%;
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+.carousel-7 .videoOverlay {
+	background: url('../images/dgovImageSprite.png') -43px 0px;
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -41px;
+	margin-top: -41px;
+	z-index: 2;
+}

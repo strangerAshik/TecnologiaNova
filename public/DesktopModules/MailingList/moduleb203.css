@@ -1,0 +1,68 @@
+.afMailingList {
+  display: inline-block;
+  width: 270px;
+  height: 90px;
+  color: #474747;
+  font-size: 12px;
+  float: right;
+  padding: 31px 0px 0px 31px;
+  position: absolute;
+}
+.afMailingList .joinText {
+  padding-left:5px;
+}
+.afMailingList .mailSubmit {
+  margin-top:5px;
+}
+.afMailingList .inlineBlock {
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+}
+.afMailingList .mailSubmit a, .afMailingList .mailSubmit input {
+  height:18px;
+  color:#C0C0C0;
+  font-size:11px;
+  font-style:italic;
+  position:absolute;
+  top:50px;
+}
+.afMailingList .mailSubmit a {
+  background:url("images/submit.png");
+  width:52px;
+  line-height:18px;
+  left:210px;
+  text-decoration:none;
+  text-align:center;
+}
+.afMailingList .mailSubmit input {
+  background:url("images/Textbox.png");
+  width:161px;
+  line-height:14px;
+  line-height:18px\9;
+  left:31px;
+  padding:0px 7px;
+  border:none;
+  outline:none;
+  font-family:"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.editRow {
+  margin:5px 0px 0px 10px;
+}
+.editRow .editLabel {
+  width:150px;
+  text-align:right;
+  font-weight:bold;
+}
+::-webkit-input-placeholder {
+  color:#C0C0C0;
+}
+::-moz-placeholder {
+  color:#FFFFFF;
+}
+input:-moz-placeholder {
+  color:#FFFFFF;
+}
+:-ms-input-placeholder {
+  color:#FFFFFF;
+}

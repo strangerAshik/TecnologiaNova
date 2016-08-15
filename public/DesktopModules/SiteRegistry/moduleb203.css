@@ -1,0 +1,1407 @@
+F.lnksubmit                      { bottom: 0; font-size: 0.65em; position: absolute; right: 0; }
+.filtercontainer                { margin-bottom: 1em; margin-top: 0; background: url("../SocialMediaSites/Images/greyhead.html") repeat-x scroll 0 0 transparent; }
+.ddlbrowseservice               { font-size: 1.3em; height: 1.5em; width: 10em; }
+.serviceiconsul                 { list-style-type: none; margin-left: 45px; padding: 2em 0 0 !important; }
+.serviceiconsul li              { list-style-type: none; float: left; font-weight: bold; margin-right: 3%; text-align: center; width: 140px; }
+.faqsection                     { overflow: hidden; }
+.faqheader                      { background: url("../SocialMediaSites/Images/bkg_h2a.html") repeat-x scroll left top transparent; color: Black; font: bold 11px Arial; margin: 0; padding: 2px 0 1px 7px; text-transform: uppercase; }
+.faqcontent                     { padding: 9px 8px 3px; }
+.submittext                     { width: 138px; height: 16px; }
+.urltext                        { width: 80%; height: 16px; }
+.orgtext                        { width: 50%; height: 16px; }
+.firstnametext                  { width: 46%; height: 16px; }
+.lastnametext                   { width: 46%; height: 16px; margin-left: 5.5%; }
+.emailtext                      { width: 99%; height: 16px; }
+.phonetext                      { width: 59%; height: 16px; }
+.extensiontext                  { width: 33%; height: 16px; margin-left: 5.5%; }
+.submitlbl                      { font-size: 12px; color: #555555; font-weight: bold; }
+.orglbl                         { font-size: 12px; color: #555555; font-weight: bold; }
+.sociallbl                      { font-size: 12px; color: #555555; font-weight: bold; }
+.lastnamelbl                    { font-size: 12px; color: #555555; font-weight: bold; margin-left: 45.5%; }
+.extensionlbl                   { font-size: 12px; color: #555555; font-weight: bold; margin-left: 26%; }
+.submitlblnote                  { font-size: 11px; color: #555555; }
+.componentddl                   { width: 24%; }
+.btnlinksubmit                  
+{ 
+    padding: 5px 7px 5px 7px; 
+    border: 1px solid #909090; 
+    text-decoration: none; 
+    font-size:10px; 
+    cursor:pointer; 
+	border: 1px solid rgb(144, 144, 144);
+	color:rgb(255, 255, 255);
+	font-size:10px;
+	font-family:arial, serif;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(111, 0, 0);
+	background-image:linear-gradient(-90deg, rgb(152, 0, 0), rgb(111, 0, 0));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(152, 0, 0)), to(rgb(111, 0, 0)));
+	background-image:-moz-linear-gradient(-90deg, rgb(152, 0, 0), rgb(111, 0, 0));
+}
+.btnlinksearch                  
+{ 
+    margin-left: 10px; 
+    padding: 5px 7px 5px 7px; 
+    border: 1px solid #909090; 
+    text-decoration: none; 
+    font-size:10px; 
+    cursor:pointer; 
+	border: 1px solid rgb(144, 144, 144);
+	color:rgb(255, 255, 255);
+	font-size:10px;
+	font-family:arial, serif;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(111, 0, 0);
+	background-image:linear-gradient(-90deg, rgb(152, 0, 0), rgb(111, 0, 0));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(152, 0, 0)), to(rgb(111, 0, 0)));
+	background-image:-moz-linear-gradient(-90deg, rgb(152, 0, 0), rgb(111, 0, 0));
+}
+.btnlinkclear                   { background: -moz-linear-gradient(center top , #E4DFD3, #C4B9A0) repeat scroll 0 0 transparent;
+    border: 1px solid #909090;
+    color: Black;
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px 7px;
+    text-decoration: none; }
+.CategoryBar                    { padding: 3px 5px 1px 10px; position: relative; }
+.SocialMediaListing             { float: left; list-style-type: none; margin-bottom: 2em; margin-top: 1em; width: 47%; }
+.SocialMediaListing li          { padding: 0 0.5em 0.3em 1.5em; list-style-type: none; }
+.errorlbl                       { color: Red; font-weight: bold; }
+.smsEditTitle                   { color:#59585; background-color:#D5D3C3; font-weight:bold; }
+.smsSelectedPageNum             { color:#59585 !important; }
+.smsUnselectedPageNum           { color:Black !important; }
+.smsDataPager                   { float: right; }
+.keywordspnl                    { border-style: solid; border-color: Gray; border-width: thin; }
+#mainSubmitdiv                  { margin-left: 10px; margin-right: 10px; color:Black; font-size: 14px; }
+.spanCompleteTitle              { font-size: 24px; }
+.divSubmittedInfo               { border-style: solid; border-color: Black; border-width: thin; background-color: #D2D3D5; }
+.divSubmittedInfoInner          { background-color: #D2D3D5; margin: 15px 20px 15px 20px; }
+.regcompletebold                { font-weight: bold; }
+.hidden                         { visibility: hidden; }
+.ErrorInform                    { color: Red; }
+.socialmediasiteslinks:hover    { text-decoration: underline; }
+.SocialSitesBigTitle            { text-transform: uppercase; text-decoration: underline; font-size: 12px; font-weight: bold; color: Black; }
+.SocialSitesSmallTitle          { text-decoration: underline; font-size: 11px; font-weight: bold; color: Black; padding-left: 10px; background: url("Images/plus.gif") no-repeat scroll 0 0 transparent; }
+.SocialSitesSmallTitleOpen      { text-decoration: underline; font-size: 11px; font-weight: bold; color: Black; padding-left: 10px; background: url("Images/minus.gif") no-repeat scroll 0 0 transparent; }
+.ddlWebsitesLocation            { margin-left: 10px; margin-top: 5px; width: 255px; }
+.ddlWebsitesType                { margin-left: 32px; margin-top: 8px; width: 255px; }
+.txtWebsitesKeywords            { width: 250px; margin-left: 10px; }
+.SocialSitesCategoryTitle       { font-size: 11px; font-weight: bold; color: Black; }
+.SocialSitesBar                 { border-bottom-color: #B8B6A9; border-bottom-style: dotted; border-bottom-width: thin; }
+.SitesLink                      { color: #555555 !important; text-decoration: none !important; }
+.SitesPagerBar                  { background: url("Images/panebg.png") repeat-x scroll left top transparent;
+    height: 25px; }
+.SitesBottomPager               { float:right; line-height: 25px; }
+.SitesPage                      { color: #3D3B34 !important; margin-left: 5px; margin-right: 5px; text-decoration: none !important; }
+.SitesSelectedPage              { color: #3D3B34 !important; font-weight: bold; margin-left: 5px; margin-right: 5px; text-decoration: none !important; }
+.SitesNext                      { background: url("Images/redarrow.png") no-repeat scroll right 3px transparent; color: #3D3B34 !important; font-weight: bold; padding-left: 5px; padding-right: 17px; text-decoration: none !important; }
+.SitesPrev                      { background: url("Images/prevarrow.png") no-repeat scroll left 3px transparent; color: #3D3B34 !important; font-weight: bold; padding-left: 17px; padding-right: 5px; text-decoration: none !important; }
+.SitesPanel                     { margin-top: 20px; }
+.SocialPanel                    { margin-top: 20px; }
+.gvLinksRow                     { }
+.gvLinksAltRow                  { background-color: #D5D3C3; }
+.lblEditSearch                  { display: none; }
+.txtEditSearch                  { margin-top: 5px; }
+.btnEditSearchClear             { background: -moz-linear-gradient(center top , #E4DFD3, #C4B9A0) repeat scroll 0 0 transparent;
+    border: 1px solid #909090;
+    color: Black;
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px 7px;
+    text-decoration: none; }
+.ViewDDLSocial                  { height:20px; width:290px; }
+.EditUserInfo                   { color: #5A6675; font-size: 10px; font-weight: bold; }
+
+.SiteRegistryMobileTopDiv
+{
+    height: 60px;
+    background:#FEFEFE url(images/search_tan_bg.png) left bottom repeat-x;
+    margin-bottom: -25px;
+    top: -10px;
+    position: relative;
+}
+.btnlinksearchMobile
+{
+        width: 13%;
+        height: 22px;
+        /*position:absolute;
+        left:231px;
+        top:20px;*/  
+        padding-top: 5px;
+        margin-left: 87%;
+        position: absolute;
+}
+.SiteRegistryMobileSearchDiv
+{
+    background: url("Images/search_bar_full.png") no-repeat scroll right center transparent;
+        height: 32px;
+        padding: 0;
+        position: relative;
+        top: 13px;
+        /*width: 42%;*/
+        width: 212px;
+        margin-left: 1%;
+        float: left;
+        margin-bottom: 13px;
+}
+.txtWebsitesKeywordsMobile
+{
+    background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        bottom: 4px;
+        color: #afafaf;
+        font-size: 11px;
+        height: 21px;
+        line-height: 16px;
+        width: 86% !important;
+        position: absolute;
+        margin-left: 5px;
+}
+.SiteRegistryMobileFilterDiv
+{
+    float: right;
+    width: 30%;
+    margin-right: 1%;
+}
+.ddlWebsitesLocationMobile      { margin-top: 5px; width: 100%; float: right; margin-right: 2%; }
+.ddlWebsitesTypeMobile          { width: 100%; float: right; margin-right: 2%; }
+.SitesPagerBar1Mobile
+{
+        height:39px;
+        line-height:39px;
+        font-size:10px;
+        font-weight:bold;
+        color:White;
+        text-transform:uppercase;
+        background:url('Images/carbon_bg.png');
+        /*width: 320px;*/
+}
+.SitesPagerBarMobile                 
+{ 
+    height: 25px;
+}
+.SitesBottomPagerMobile               { line-height: 25px; vertical-align: middle; text-align: center; }
+.SiteRegistryPhotoImageMobile
+{
+        margin-left: 3%;
+        margin-right: 5px;
+        margin-top: 7px;
+}
+.SiteRegistryTextMobile
+{
+        font-size: 13px;
+        font-weight: bold;
+        color: #e7e4d7 !important;
+}
+.SiteRegistrygvWebsitesRowMobile
+{
+    background-color: #E7DBCD;
+    margin-left: 2%;
+    color: Black;
+}
+.SiteRegistrygvWebsitesRowMobileAlt
+{
+    background-color: #F2EDE7;
+    margin-left: 2%;
+    color: Black;
+}
+.SitesLinkMobile                      { color: Black !important; text-decoration: none !important; }
+
+.SiteRegistrygvWebsitesRowMobile td
+{
+    vertical-align: middle;
+}
+
+.SiteRegistrygvWebsitesRowMobileAlt td
+{
+    vertical-align: middle;
+}
+
+span.smsStatusChecks label
+{
+    margin-right: 15px;
+}
+span.commandIcon
+{
+    margin-right: 4px;
+}
+span.SiteRegistryInfoButton
+{
+      color: #084476;
+      margin-right: 5px;
+}
+span.SiteRegistryInfoButton:hover
+{
+      color: #B41019;
+}
+div.SiteRegistryToolTip
+{
+    width: 100%;
+    background-color: #C6DAE4;
+    border-color: #417BAF;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 100;
+    position: absolute;
+    padding: 10px 40px;
+}
+div.SRTTColumn
+{
+    width: 25%;
+    float: left;
+}
+div.SRTTColumn3
+{
+    width: 33%;
+    float: left;
+}
+
+
+/*
+**AF CSS
+*/
+.AFSitesPagerBar                  { background: url("images/blueheader.png") repeat scroll 0 0 transparent; height: 25px; }
+.AFSitesNext                      { padding-left: 5px; padding-right: 17px; }
+.AFSitesPrev                      { padding-left: 17px; padding-right: 5px; }
+.AFSitesPage                      { color: #808080 !important; margin-left: 5px; margin-right: 5px; text-decoration: none !important; }
+.AFSitesSelectedPage              { color: #FFFFFF !important; font-weight: bold; margin-left: 5px; margin-right: 5px; text-decoration: none !important; }
+.AFbtnlinksearch                  
+{ 
+    margin-left: 10px; 
+    padding: 5px 7px 5px 7px; 
+    border: 1px solid #909090; 
+    text-decoration: none; 
+    font-size:10px; 
+    cursor:pointer; 
+	border: 1px solid rgb(144, 144, 144);
+	color:rgb(255, 255, 255);
+	font-size:10px;
+	font-family:arial, serif;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(17, 56, 94);
+	background-image:linear-gradient(-90deg, rgb(23, 95, 144), rgb(17, 56, 94));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(23, 95, 144)), to(rgb(17, 56, 94)));
+	background-image:-moz-linear-gradient(-90deg, rgb(23, 95, 144), rgb(17, 56, 94));
+}
+.AFbtnlinksubmit                  
+{ 
+    padding: 5px 7px 5px 7px; 
+    border: 1px solid #909090; 
+    text-decoration: none; 
+    font-size:10px; 
+    cursor:pointer; 
+	border: 1px solid rgb(144, 144, 144);
+	color:rgb(255, 255, 255);
+	font-size:10px;
+	font-family:arial, serif;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(17, 56, 94);
+	background-image:linear-gradient(-90deg, rgb(23, 95, 144), rgb(17, 56, 94));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(23, 95, 144)), to(rgb(17, 56, 94)));
+	background-image:-moz-linear-gradient(-90deg, rgb(23, 95, 144), rgb(17, 56, 94));
+}
+
+.AFddlWebsitesType                { margin-left: 31px; margin-top: 8px; width: 255px; }
+
+
+div.AFUnitsMainContent
+{
+}
+
+div.AFUnitsSearchResults
+{
+    background-color: #EDF1F3;
+    border: solid 1px #AFBDC6;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div.AFUnitDetails
+{
+    background: none repeat scroll 0 0 #EFEFEF;
+    box-shadow: 0 2px 7px 0.25px #777777;
+    display: inline-block;
+    padding-bottom: 15px;
+    width: 910px;
+    padding: 5px;
+}
+
+span.AFSearchResult
+{
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul.AFSearchSiteBaseList
+{
+    padding-left: 50px !important;
+}
+
+div.AFUnitsSearchList
+{
+    margin: 25px 0 25px 25px;
+}
+
+div.AFUnitsSearchNone
+{
+    margin: 25px 0 25px 0;
+}
+
+div.AFUnitsMainContentLeft
+{
+    float: left;
+    width: 293px;
+}
+
+div.AFUnitsMainContentMiddle
+{
+    float: left;
+    width: 293px;
+    margin-left: 20px;
+}
+
+div.AFUnitsMainContentRight
+{
+    float: left;
+    width: 295px;
+    margin-left: 20px;
+}
+
+div.AFUnitCategory
+{
+    background: none repeat scroll 0 0 #EFEFEF;
+    box-shadow: 0 2px 7px 0.25px #777777;
+    -moz-box-shadow: 0px 2px 7px .25px  #777777;
+    -webkit-box-shadow: 0px 2px 7px .25px #777777;
+    display: inline-block;
+    margin: 10px 0 15px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+div.AFUnitCategoryContent
+{
+    margin: 0 10px 0 10px;
+}
+
+h2.AFUnitCategoryTitle
+{
+    background: #11375c ; /* Old browsers */
+	background: -moz-linear-gradient(top, #175f90   0%, #11375c  100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#175f90 ), color-stop(100%,#11375c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #175f90  0%,#11375c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #175f90  0%,#11375c 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #175f90  0%,#11375c 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#175f90', endColorstr='#11375c',GradientType=0 ); /* IE6-9 */
+    -ms-filter: " progid:DXImageTransform.Microsoft.gradient( startColorstr='#175f90', endColorstr='#11375c',GradientType=0 )"; /* IE6-9 */
+	background: linear-gradient(top, #175f90  0%,#11375c 100%); /* W3C */
+    color: #FFFFFF;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Orbitron',sans-serif;
+    font-weight: 700;
+}
+
+h2.AFUnitCategoryTitle span
+{
+    font-size: 16px;
+    padding-left: 10px;
+    text-shadow: 2px 1px 3px #333333;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+div.AFDetailsUnitCategory
+{
+    background: none repeat scroll 0 0 #EFEFEF;
+    box-shadow: 0 2px 7px 0.25px #777777;
+    -moz-box-shadow: 0px 2px 7px .25px  #777777;
+    -webkit-box-shadow: 0px 2px 7px .25px #777777;
+    display: inline-block;
+    margin: 10px 10px 15px 0;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+a.AFSiteLink
+{
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.AFAlphaLink
+{
+    width: 14px;
+    margin: 0 4px 0 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.AFUnitsSideContent
+{
+    float: right;
+    width: 32%;
+}
+
+div.AFUnitDetailImage
+{
+    float: left;
+    width: 342px;
+}
+
+div.AFUnitDetailDesc
+{
+    float: right;
+    width: 500px;
+    padding: 15px;
+}
+
+span.AFSiteDesc
+{
+    color: #000000;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.AFthreecolumn
+{
+    float: left;
+    width: 32%;
+}
+
+span.AFFilterHeading
+{
+    color: #174A8B;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.AFFilterSearch
+{
+    background-color: #555;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.AFSiteDesc
+{
+    width: 80%;
+    height: 80px;
+}
+
+
+.AFSearchBox
+{
+    background: #FFFFFF url(Templates/AirForce/Images/srchboxicon.gif) no-repeat scroll left top;
+    border-color: #d5d3d3 #FFFFFF #FFFFFF #d5d3d3;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 2px;
+    padding: 2px 3px 3px 22px;
+    width: 110px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #666666;
+}
+
+.AFFields
+{
+    height: 179px;
+}
+
+div.Clear
+{
+    clear: both;
+}
+
+
+
+/*DGOV*/
+@media (max-width: 1199px), (max-device-width: 1199px)
+{
+    div.DGOVUnifiedCommands
+    {
+        width: 50% !important;
+    }
+    div.DGOVRegistrationButton.Website
+    {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+}
+@media (max-width: 991px), (max-device-width: 991px)
+{
+    div.DGOVUnifiedCommands
+    {
+        width: 65% !important;
+    }
+    div.DGOVDODWebsites
+    {
+        width: 100% !important;
+    }
+    div.DGOVRegistrationButton.Website
+    {
+        margin-left: 20% !important;
+        margin-right: 0 !important;
+        margin-bottom: 1%;
+    }
+    div.DGOVRegistrationButton
+    {
+        margin-left: 20% !important;
+        margin-bottom: 1%;
+    }
+    div.DGOVRegistrationContainer
+    {
+        padding-bottom: 70px !important;
+    }
+    li.DGOVLeftBar a
+    {
+        padding: 10px 10px !important;
+    }
+    div.DGOVRegisterPhoneType
+    {
+        margin-left: 10% !important;
+    }
+}
+/*Skin Tranisition to Mobile*/
+@media (max-width: 767px), (max-device-width: 767px)
+{
+    div.DGOVUnifiedCommands
+    {
+        width: 100% !important;
+    }
+    h2.DGOVServicesTitle
+    {
+        display: none;
+    }
+    div.DGOVWebsitesLink
+    {
+        width: 100% !important;
+    }
+    div.DGOVRegistrationButton
+    {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-bottom: 1%;
+    }
+    div.DGOVRegistrationButton.Website
+    {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    div.DGOVRegistrationButton.Social
+    {
+        margin-left: 0 !important;
+    }
+    div.DGOVRegistrationContainer
+    {
+        padding-bottom: 70px !important;
+    }
+    div.DGOVLeftBar
+    {
+        float: none !important;
+        width: 100% !important;
+        max-width: none !important;
+    }
+    div.DGOVRightBar
+    {
+        float: none !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin-bottom: 20px;
+    }
+    div.DGOVLandingMain
+    {
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+    div.DGOVRegistrationMain
+    {
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+    div.DGOVConfirmationMain
+    {
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+    li.DGOVLeftBarInner
+    {
+        float: none !important;
+    }
+    ul.DGOVLeftBarList
+    {
+        float: none !important;
+    }
+    ul.DGOVLeftBarInnerList
+    {
+        float: none !important;
+    }
+    li.DGOVLeftBar
+    {
+        float: none !important;
+    }
+    div.DGOVRegisterPhoneType
+    {
+        margin-left: 2% !important;
+    }
+}
+@media (max-width: 670px), (max-device-width: 670px)
+{
+    div.DGOVLinkBoxLeft
+    {
+        float: none !important;
+        width: 100% !important;
+    }
+    div.DGOVLinkBoxRight
+    {
+        float: none !important;
+        width: 100% !important;
+    }
+    div.DGOVLinkListLeft
+    {
+        float: none !important;
+        width: 100% !important;
+    }
+    div.DGOVLinkListRight
+    {
+        float: none !important;
+        width: 100% !important;
+    }
+    div.DGOVRegisterComponent
+    {
+        float: none !important;
+    }
+    div.DGOVRegisterOrganization
+    {
+        float: none !important;
+        margin-left: 0 !important;
+        margin-top: 30px;
+    }
+    div.DGOVRegisterPhone
+    {
+        float: none !important;
+    }
+    div.DGOVRegisterExt
+    {
+        float: none !important;
+        width: 62px !important;
+        margin-left: 0 !important;
+    }
+    div.DGOVRegisterPhoneType
+    {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    div.DGOVRegisterCreatedOn
+    {
+        width: auto !important;
+    }
+}
+@media (max-width: 362px), (max-device-width: 362px)
+{
+    div.DGOVDODWebsitesTab
+    {
+        height: 42px;
+    }
+    div.DGOVWebsitesTabContent
+    {
+        margin-top: 41px !important;
+    }
+    div.DGOVWebsitesCategory
+    {
+        margin-left: 0 !important;
+    }
+}
+div.DGOVTopBar
+{
+    border-color: #C6DAE4;
+    border: solid;
+    border-width: 1px;
+}
+div.DGOVLeftBar
+{
+    float:left;
+    width: 14%;
+    max-width: 150px;
+    background-color: #FFFFFF;
+}
+div.DGOVLeftBar.Registration
+{
+    border-color: #C6DAE4;
+    border: solid;
+    border-width: 1px;
+}
+.divSubmittedInfo.DGOV          { border-style: solid; border-color: #C6DAE4; border-width: thin; background-color: #F1F1F2; width: 85%; }
+.divSubmittedInfoInner.DGOV     { background-color: #F1F1F2; margin: 15px 20px 15px 20px; }
+.keywordspnl.DGOV
+{
+    border-color: #C6DAE4;
+}
+div.DGOVRightBar
+{
+    float:right;
+    width: 20%;
+    background-color: #FFFFFF;
+}
+div.DGOVFAQHeader
+{
+    background-color: #254A78;
+    padding: 2px 5px;
+}
+div.DGOVFAQBody
+{
+    padding: 5px 0;
+}
+div.DGOVFAQHeaderLight
+{
+    background-color: #417BAF;
+    padding: 2px 5px;
+}
+span.DGOVFAQTitle
+{
+    color: #FFFFFF;
+}
+span.DGOVFAQArrow
+{
+    color: #254A78;
+    font-weight: bold;
+}
+span.DGOVFAQ
+{
+    color: #417BAF;
+    font-weight: normal;
+    cursor: pointer;
+}
+div.DGOVFAQAnswer
+{
+    padding-left: 20px;
+}
+span.DGOVFAQAnswer
+{
+    color: black;
+    font-weight: normal;
+}
+div.DGOVFAQDark
+{
+    padding: 5px;
+    background-color: #C6DAE4;
+}
+.divConfirmInfo
+{
+    border-style: solid;
+    border-color: #C6DAE4;
+    border-width: thin;
+    background-color: #F1F1F2;
+}
+.divConfirmInfoInner
+{
+    background-color: #F1F1F2;
+    margin: 15px 20px 15px 20px;
+}
+.DGOVConfirmButton
+{
+    width: 70px;
+    padding: 5px;
+    color: white;
+}
+.DGOVConfirmButton.Yes
+{
+    margin-right: 2%;
+}
+.DGOVConfirmButton.Registration
+{
+    width: 140px;
+}
+a.DGOVLeftMainBase
+{
+    color: #FFFFFF !important;
+}
+a.DGOVLeftMain
+{
+    color: #417BAF !important;
+}
+div.DGOVLeftBarTop
+{
+    background-color: #e7e7e7;
+    border-bottom-color: #C6DAE4;
+    border-bottom: solid;
+    border-bottom-width: 1px; 
+    padding-left: 5px;
+}
+li.DGOVLeftBarBase
+{
+    float: left;
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #254A78;
+    padding-left: 5px;
+}
+li.DGOVLeftBar
+{
+    float: left;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+li.DGOVLeftBarInner
+{
+    float: left;
+    position: relative;
+    display: block;
+    padding-left: 20px;
+}
+li.DGOVLeftBarInnerSelected
+{
+}
+li.DGOVLeftBarInnerSelected.Army
+{
+    border-top-width: 0;
+}
+div.DGOVLeftBarOuter
+{
+    border: none !important;
+    border-radius: 4px;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+div.DGOVLeftBarInner
+{
+    display: block !important;
+    padding: 0;
+    overflow: visible !important;
+    width: auto;
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ul.DGOVLeftBarList
+{
+    float: left;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    background-color: #C6DAE4;
+}
+ul.DGOVLeftBarInnerList
+{
+    float: left;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    background-color: #FFFFFF;
+}
+li.DGOVLeftBarInnerSelected a
+{
+    color: #BE1E2D;
+}
+li.DGOVLeftBarSelected a.DGOVLeftMain
+{
+    background-color: #417BAF;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+li.DGOVLeftBar a.DGOVLeftMain:hover
+{
+    background-color: #417BAF;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+li.DGOVLeftBar a
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: block;
+    padding: 5px 15px;
+}
+div.DGOVTopDropDown
+{
+    margin-left: 70%;
+}
+div.DGOVNav
+{
+    border: none !important;
+}
+div.DGOVNavCollapse
+{
+    padding: 0 !important;
+}
+div.DGOVLandingMain
+{
+    float: right;
+    width: 84%;
+    margin-bottom: 20px;
+}
+div.DGOVRegistrationMain
+{
+    float: right;
+    width: 61%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+div.DGOVConfirmationMain
+{
+    float: right;
+    width: 53%;
+    margin-right: 12%;
+    margin-bottom: 20px;
+}
+div.DGOVLinkBox
+{
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+div.DGOVLandingAZ
+{
+    clear: both;
+    padding-top: 15px;
+}
+div.DGOVLandingRegiser
+{
+    margin-top: 35px;
+}
+div.DGOVDODWebsites
+{
+    width: 65%;
+}
+div.DGOVUnifiedCommands
+{
+    width: 45%;
+}
+div.DGOVLinkBoxLeft
+{
+    float: left;
+    width: 50%;
+}
+div.DGOVLinkBoxRight
+{
+    float: right;
+    width: 50%;
+}
+div.DGOVSeals
+{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+img.SealLink
+{
+    padding: 0 10px 0 0;
+    max-width: 120px;
+    float: left;
+}
+img.ServicesSealLink
+{
+    padding: 10px;
+    max-width: 120px;
+    float: left;
+}
+div.DGOVServicesSeals
+{
+    float: left;
+    text-align: center;
+    align-content: center;
+    margin: 1%;
+}
+div.DGOVServicesSeals span
+{
+    font-weight: bold;
+}
+div.DGOVDODWebsitesContainer
+{
+    padding: 1%;
+}
+div.DGOVDODWebsitesTabs
+{
+
+}
+div.DGOVDODWebsitesTab
+{
+    width: 110px;
+    float: left;
+    border-color: #C6DAE4;
+    border: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    background-color: #C6DAE4;
+}
+div.DGOVDODWebsitesTabSelected
+{
+    background-color: #254A78;
+}
+div.DGOVDODWebsitesTabSelected a
+{
+    color: #FFFFFF !important;
+}
+div.DGOVDODWebsitesTab:hover
+{
+    background-color: #254A78;
+}
+div.DGOVDODWebsitesTab:hover a
+{
+    color: #FFFFFF !important;
+}
+div.DGOVWebsitesTabContent
+{
+    border-color: #C6DAE4;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2% 2%;
+    margin-top: 21px;
+}
+span.DGOVWebsitesCategory
+{
+    float: left;
+    padding-top: 5px;
+}
+div.DGOVWebsitesCategory
+{
+    float: left;
+    margin-left: 15px;
+}
+div.DGOVSeal
+{
+    max-height: 140px;
+}
+h2.DGOVServicesTitle
+{
+    float: left;
+    padding-top: 15px;
+}
+div.DGOVWebsitesLinks
+{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+div.DGOVWebsitesLink
+{
+    width: 48%;
+    padding: 5px;
+    float: left;
+}
+div.DGOVWebsitesLink.Alt
+{
+    /*background-color: #fff;*/
+}
+div.DGOVAZPickerLetter
+{
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+div.DGOVAZPickerLetter a
+{
+    color: black;
+}
+div.DGOVAZPickerLetter.Selected a
+{
+    background-color: #254A78;
+    color: white;
+    padding-left: 1px;
+    padding-right: 2px;
+}
+span.DGOVAZListMarker
+{
+    font-weight: bold;
+}
+div.DGOVWebsitesSocialHeader
+{
+  padding-top: 20px;
+  margin-bottom: 15px;
+  clear: both;
+}
+div.DGOVCommandItem
+{
+      margin-top: 25px;
+      min-height: 100px;
+}
+h4.DGOVCommandName
+{
+
+}
+span.DGOVCommandDesc
+{
+
+}
+div.DGOVRegistrationContainer
+{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+div.DGOVRegistrationButton
+{
+    float: left;
+    height: 30px;
+    padding: 5px 0px;
+    width: 230px;
+    text-align: center;
+}
+div.DGOVRegistrationButton.Website
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a.DGOVRegistrationLink
+{
+    color: white !important;
+}
+span.DGOVRegistrationGroupTitle
+{
+    font-weight: bold;
+    color: #254A78;
+}
+span.DGOVRegistrationGroupTitle.Keywords
+{
+    font-weight: normal;
+}
+span.DGOVRegistrationGroupTitleLight
+{
+    font-weight: bold;
+    color: #417BAF;
+}
+div.DGOVRegistrationGroup
+{
+    background-color: #F1F1F2;
+    border-color: #C6DAE4;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+}
+div.DGovRegistrationFields
+{
+    margin-right: 5%;
+}
+div.DGovError
+{
+    clear: both;
+}
+img.DGOVSocialMediaIcon
+{
+    float: left;
+    max-width: 40px;
+}
+span.DGOVSocialMediaName
+{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+h3.DGOVTitle
+{
+    margin-top: 0 !important;
+}
+table.DGOVCheckBoxList
+{
+    background-color: #F1F1F2;
+    border-color: #C6DAE4 !important;
+}
+table.DGOVCheckBoxList td
+{
+    vertical-align: top;
+}
+table.DGOVCheckBoxList label
+{
+    margin-left: 5px;
+    font-weight: normal !important;
+    display: inline;
+}
+div.DGOVLinkListLeft
+{
+    float: left;
+    width: 48%;
+}
+div.DGOVLinkListRight
+{
+    float: right;
+    width: 48%;
+}
+div.DGOVListLink
+{
+    background-color: #FAFBFB;
+}
+div.DGOVListLink a
+{
+}
+div.DGOVListLinkAlt
+{
+    background-color: #F1F1F2;
+}
+div.DGOVListLinkAlt a
+{
+}
+.gvLinksDGOVAltRow
+{
+    background-color: #e7e7e7;
+}
+.smsDGOVEditTitle
+{
+    font-weight: bold;
+}
+.smsDGOVEditTitle label
+{
+    margin-left: 5px;
+}
+.SiteRegistryEditIcon
+{
+    background-image: url("../../images/edit.gif");
+      width: 16px;
+}
+table.SiteRegsitrygvLinks tr td:first-child
+{
+    padding-left: 5px;
+}
+table.SiteRegsitrygvLinks tr th:first-child
+{
+    padding-left: 5px;
+}
+table.SiteRegsitrygvLinks tr td
+{
+    padding-right: 10px;
+}
+table.SiteRegsitrygvLinks tr th
+{
+    padding-right: 10px;
+}
+.SiteRegistryPagerStyle
+{
+}
+table.DGOVCheckBoxList tr td input
+{
+    margin-left: 5px;
+}
+div.DGOVRegisterComponent
+{
+    float: left;
+}
+div.DGOVRegisterOrganization
+{
+    float: left;
+    margin-left: 2%;
+}
+div.DGOVRegisterPhone
+{
+    float: left;
+}
+div.DGOVRegisterExt
+{
+    float: left;
+    width: 10%;
+    margin-left: 2%;
+}
+div.DGOVRegisterPhoneType
+{
+    float: left;
+    width: 28%;
+    margin-left: 2%;
+}
+table.rblDGovPhoneType
+{
+    margin-top: 5px;
+}
+table.rblDGovPhoneType span
+{
+    display: inline !important;
+}
+table.rblDGovPhoneType input
+{
+    margin-left: 0 !important;
+}
+table.rblDGovPhoneType label
+{
+    margin-right: 15px !important;
+    padding-left: 15px !important;
+    font-size: 12px;
+    color: #555555;
+    font-weight: bold;
+}
+div.DGOVRegisterCreatedOn
+{
+    width: 170px;
+    clear: both;
+}
+span.DGOVDelicious
+{
+    font-size: 4em;
+    color: #486591;
+}
+span.DGOVFacebook
+{
+    font-size: 4em;
+    color: #3B599B;
+}
+span.DGOVFlickr
+{
+    font-size: 4em;
+    color: #486591;
+}
+span.DGOVGooglePlus
+{
+    font-size: 4em;
+    color: #DD4B39;
+}
+span.DGOVLinkedIn
+{
+    font-size: 4em;
+    color: #0077B4;
+}
+span.DGOVSlideShared
+{
+    font-size: 4em;
+    color: #486591;
+}
+span.DGOVTwitter
+{
+    font-size: 4em;
+    color: #5EA9DD;
+}
+span.DGOVVimeo
+{
+    font-size: 4em;
+    color: #5BC8FF;
+}
+span.DGOVYouTube
+{
+    font-size: 4em;
+    color: #486591;
+}

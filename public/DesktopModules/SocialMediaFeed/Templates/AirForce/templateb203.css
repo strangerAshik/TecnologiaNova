@@ -1,0 +1,170 @@
+﻿/*****************/
+/*AF CSS*/
+/***************/
+
+/*Main*/
+div.AFFeedMain
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 6px;
+    width: 234px;
+}
+
+/*Feed*/
+div.AFFeedOuterPane
+{
+    height: 300px;
+    background-color: #D8D8D8;
+    border-color: Gray;
+    border-style: solid;
+    border-width: thin;
+    padding: 6px;
+    -moz-box-shadow: inset 0 0 5px 1px #787878;
+    -webkit-box-shadow: inset 0 0 5px 1px #787878;
+    box-shadow: inset 0 0 5px 1px #787878;
+    border-radius: 8px;
+}
+
+div.AFFeedPane
+{
+    height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+    overflow-x: hidden;
+}
+
+div.AFFeedFirst
+{
+    width: 20px;
+    float: left;
+    padding-top: 18px;
+}
+
+div.AFFeedSecond
+{
+    width: 48px;
+    float: left;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+div.AFFeedThird
+{
+    width: 120px;
+    float: left;
+    margin-left: 5px;
+}
+
+div.AFFeedThird span
+{
+    font-size: 12px;
+    color: #124068;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+div.AFFeedThird span a
+{
+    color: #000000;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+div.AFFeedThird span a:visited
+{
+    color: #000000;
+    text-decoration: none !important;
+}
+
+div.AFFeedThird span.AFFeedCaption a
+{
+    font-size: 11px;
+    color: #A10B0B !important;
+    text-decoration: none !important;
+}
+
+div.AFFeedSep
+{
+    border-bottom: 1px solid #5e5d5d;
+    margin-bottom: 10px;
+    margin-top: 5px
+}
+
+/*Panel*/
+div.AFPanelPane
+{
+    margin-top: 10px;
+}
+
+div.AFPanelFacebook
+{
+    float: left;
+}
+
+div.AFPanelFacebook a img,
+div.AFPanelTwitter a img
+{
+    float:left;
+    width:45px;
+    height:45px;
+}
+
+div.AFPanelTwitter
+{
+    float: right;
+}
+div.AFPanelSocialStats
+{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+span.AFPanelSocialText
+{
+    color: #001a53;
+    font-size: 13.4px;
+    font-weight: bold;
+}
+a.AFPanelFacebookLike
+{
+    position: relative;
+    top: 3px;
+}
+div.AFPanelFacebook div.AFPanelSocialStats a.AFPanelFacebookLike img,
+div.AFPanelTwitter div.AFPanelSocialStats a.AFPanelTwitterFollower img
+{
+    float:none;
+    height:auto;
+    width:auto;
+}
+div.AFPanelSocialIcons
+{
+    margin-top: 8px;
+    padding-bottom: 2px;
+}
+div.AFPanelSocialIcons img
+{
+    margin-right: 4px;
+    margin-bottom: 8px;
+    width: 40px;
+}
+div.AFPanelSocialIcons a img.LastSocialMediaFeedIcon
+{
+    margin-right: 0px;
+}
+
+div.AFFeedMain div.AFFeedMainDocuments
+{
+    text-align: center;
+}
+
+div.AFFeedMain div.AFFeedMainDocuments div
+{
+    padding-bottom: 5px;
+}
+
+div.AFFeedMain div.AFFeedMainDocuments a
+{
+    font-weight: bold;
+}

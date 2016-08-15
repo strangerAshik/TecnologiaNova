@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	404 Error
+</title><link rel="shortcut icon" href="/Error/images/favicon.ico" />
+    <style type="text/css">
+     html, body
+     {
+         padding:0px 0px 0px 0px;
+         margin:0px 0px 0px 0px;
+         font-family:Times New Roman, Arial, Sans-Serif;
+     }
+     body {
+         background:#222222;
+     }
+     #bodyWidth
+     {
+         width:960px;
+         position:relative;
+         left:50%;
+         top:0px;
+         margin-left:-480px;
+         background:#E0E0E0;
+     }
+     #headerPane
+     {
+         width:960px;
+         height:95px;
+         background:url("/Error/images/header.png");
+         position:relative;
+     }
+     #headerPane > a
+     {
+       display:block;
+       width:92px;
+       height:41px;
+       position:absolute;
+       left:1px;
+       top:50px;
+       text-decoration:none;
+     }
+     .search {
+        position:absolute;
+        top:60px;
+        right:10px;
+        width:235px;
+     }
+     .search input {
+        background: url("/Error/images/Search.png") no-repeat scroll 0px 0px transparent;
+    height: 20px;
+       width: 195px;
+       border:none;
+       padding:2px 10px 0px 10px;
+       position:absolute;
+       left:0px;
+       top:0px;
+       font-size:13px;
+       font-style:italic;
+       color:#999999;
+     }
+     .search a {
+             background: url("/Error/images/Search.png") no-repeat scroll -220px 0px transparent;
+       display:inline-block;
+       *display:inline;
+     *zoom:1;
+     width:17px;
+     height:20px;
+     position:absolute;
+     right:0px;
+     top:0px;
+       }
+     #contentPane
+     {
+         height:500px;
+         padding:30px 10px 30px 10px;
+     }
+     #contentPane h1
+     {
+         color:Black;
+         font-size:44px;
+     }
+     #contentPane div
+     {
+         color:#666666;
+         font-size:14px;
+         font-weight:bold;
+     }
+     #footerPane
+     {
+         width:960px;
+         height:100px;
+         background:url("/Error/images/footer.png");
+     }
+    </style>
+    </head>
+<body>
+    <form method="post" action="greyarrowsmall.png?404%3bhttp%3a%2f%2fwww.af.mil%3a80%2fdesktopmodules%2fArticleCS%2fstyles%2fAirForce%2fgreyarrowsmall.png" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="QdmYBAxlN5oBvgJq9Rgg67FyCCXOZ3gaxEZj240GP4FHHhWCrBd9hGguPT9LYu6zN8sUfl9K+pOn1iKXTJuCBGk2fzE=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D027F5CB" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+     <div id="bodyWidth">
+      <div id="headerPane">
+       <a target="_self" href="http://www.af.mil">&nbsp;</a>
+       <div class="search">
+         <input type="text" value="" />
+         <a href="#"></a>
+       </div>
+      </div>
+      <div id="contentPane">
+       <h1>404 - Page not found!</h1>
+       <p>
+         The U.S. Air Force has recently migrated to a new platform to host its public websites.  As a result, 
+         many URLs have changed, and the requested resource was not found. To find what you are looking for, please
+         use the search box at the top of this page, click on the banner to go to the homepage, or use the
+         list of common subjects below.
+       </p>
+       <div>
+         <ul>
+          <li><a href="/Home.aspx">AFLINK Homepage</a></li>
+          <li><a href="/News.aspx">Air Force News</a></li>
+          <li><a href="/AboutUs/Biographies.aspx">Air Force Biographies</a></li>
+          <li><a href="/AboutUs/FactSheets.aspx">Air Force Fact Sheets</a></li>
+          <li><a href="/AFSites.aspx">Air Force Public Websites</a></li>
+          <li><a href="/News/AirForceTV.aspx">Air Force TV</a></li>
+          <li><a href="/AboutUs/AirForceSeniorLeaders.aspx">Senior Leaders</a></li>
+          <li><a href="/AboutUs.aspx">About Us</a></li>
+          <li><a href="/News/Photos.aspx">Photos</a></li>
+          <li><a href="/AFSites/SocialMediaSites.aspx">Social Media</a></li>
+          <li><a href="/ContactUs.aspx">Contact Us</a></li>
+         </ul>
+       </div>
+      </div>
+      <div id="footerPane"></div>
+     </div>
+      <script type="text/javascript" src="http://www.af.mil/Resources/Shared/Scripts/jquery/jquery.min.js"></script>
+      <script type="text/javascript">
+        (function ($) {
+          $(document).ready(function () {
+
+            var searchContainer = $(".search").eq(0);
+            var txtBox = searchContainer.children("input").eq(0);
+            var btn = searchContainer.children("a").eq(0);
+            var baseLink = "http://www.af.mil/SearchResults.aspx?Search=";
+
+            $("form").on("keypress", function (evt) {
+              if (evt.which === 13) {
+                var tgt = $(evt.target);
+                var par = tgt.parent();
+                if (tgt.is("input") && par.hasClass("search")) {
+                  var txt = txtBox.val();
+                  if (txt != "" && txt != defaultText) {
+                    setTimeout(function () {
+                      window.location.href = baseLink + txt.replace(/[<>]/g, "");
+                    }, 10);
+                  }
+                  return false;
+                }
+              }
+            });
+
+            var defaultText = "Search AF.mil";
+            txtBox.val(defaultText);
+
+            txtBox.focus(function () {
+              if (txtBox.val() == defaultText) {
+                txtBox.val("");
+              }
+            }).blur(function () {
+              if (txtBox.val() == "") {
+                txtBox.val(defaultText);
+              }
+            });
+
+            btn.click(function () {
+              var txt = txtBox.val();
+              if (txt == "" || txt == defaultText) {
+                return false;
+              }
+              btn.attr("href", baseLink + txtBox.val().replace(/[<>]/g, ""));
+            });
+          });
+        })(jQuery);
+      </script>
+    </form>
+</body>
+</html>

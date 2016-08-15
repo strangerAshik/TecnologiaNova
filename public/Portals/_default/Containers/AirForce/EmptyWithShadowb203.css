@@ -1,0 +1,8 @@
+.EmptyBoxcontainer                  {-moz-box-shadow: 0px 2px 7px .25px  #777;
+                                      -webkit-box-shadow: 0px 2px 7px .25px #777;
+                                       box-shadow: 0px 2px 7px  .25px #777;
+                                       margin-bottom:7px;
+                                       /*display:inline-block;*/ width:100%;
+}
+
+

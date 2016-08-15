@@ -1,0 +1,37 @@
+/*****************/
+/*Extra CSS*/
+/***************/
+div.Clear
+{
+    clear: both;
+}
+
+/*Get rid of sickly yellow color Bootstrap has for some reason*/
+mark, .mark
+{
+    background-color: transparent !important;
+}
+
+.SocialMediaFeedSettingRow
+{
+    margin-bottom: 10px;
+}
+
+.SocialMediaFeedchkSpan
+{
+    width: 100px !important;
+}
+.SocialMediaFeedchkImg
+{
+    margin-right: 5px;
+    margin-bottom: 8px;
+    width: 40px;
+}
+.pnlMaxResults
+{
+    margin-left: 10px;
+}
+.pnlSocialMediaIcons
+{
+    margin-left: 25px;
+}
